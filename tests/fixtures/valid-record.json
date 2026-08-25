@@ -1,0 +1,32 @@
+{
+  "id": "ce-linux-systemd-debug-000001",
+  "version": 1,
+  "split": "train",
+  "domain": "linux-infrastructure",
+  "subdomain": "systemd",
+  "task_type": "debugging",
+  "difficulty": "intermediate",
+  "messages": [
+    {
+      "role": "user",
+      "content": "A systemd service exits immediately with status=203/EXEC. What should be checked first?"
+    },
+    {
+      "role": "assistant",
+      "content": "Check the ExecStart path first. Confirm that the executable exists, has execute permission, and is accessible to the service. Then inspect systemctl status and journalctl -u for the exact failure."
+    }
+  ],
+  "verification": {
+    "method": "reference-answer",
+    "status": "verified",
+    "details": "Checked against systemd execution failure semantics."
+  },
+  "source": {
+    "type": "original"
+  },
+  "tags": [
+    "linux",
+    "systemd",
+    "debugging"
+  ]
+}

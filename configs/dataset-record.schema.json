@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/IrfanUruchi/qwen3-computer-engineering/configs/dataset-record.schema.json",
+  "title": "Qwen3 Computer Engineering Dataset Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "version",
+    "split",
+    "domain",
+    "subdomain",
+    "task_type",
+    "difficulty",
+    "messages",
+    "verification",
+    "source",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^ce-[a-z0-9][a-z0-9-]*-[0-9]{6}$"
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "split": {
+      "type": "string",
+      "enum": [
+        "train",
+        "validation",
+        "evaluation"
+      ]
+    },
+    "domain": {
+      "type": "string",
+      "enum": [
+        "software-engineering",
+        "systems-programming",
+        "operating-systems",
+        "computer-architecture",
+        "embedded-systems",
+        "networking",
+        "distributed-systems",
+        "linux-infrastructure",
+        "compute-model-infrastructure",
+        "secure-engineering",
+        "engineering-reasoning"
+      ]
+    },
+    "subdomain": {
+      "type": "string",
+      "minLength": 1
+    },
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "explanation",
+        "implementation",
+        "code-generation",
+        "code-repair",
+        "debugging",
+        "testing",
+        "design",
+        "architecture-analysis",
+        "performance-analysis",
+        "failure-analysis",
+        "configuration",
+        "troubleshooting",
+        "comparison",
+        "technical-decision"
+      ]
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "basic",
+        "intermediate",
+        "advanced",
+        "expert"
+      ]
+    },
+    "messages": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "role",
+          "content"
+        ],
+        "properties": {
+          "role": {
+            "type": "string",
+            "enum": [
+              "system",
+              "user",
+              "assistant"
+            ]
+          },
+          "content": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "method",
+        "status"
+      ],
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "unit-test",
+            "compile",
+            "execute",
+            "static-analysis",
+            "reference-answer",
+            "rubric",
+            "manual-review",
+            "multiple"
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "unverified",
+            "verified",
+            "rejected"
+          ]
+        },
+        "details": {
+          "type": "string"
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "original",
+            "synthetic",
+            "public-dataset",
+            "documentation",
+            "textbook",
+            "paper",
+            "codebase",
+            "other"
+          ]
+        },
+        "reference": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}
