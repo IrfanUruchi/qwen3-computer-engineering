@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Training outputs
+outputs/
+runs/
+checkpoints/
+logs/
+
+# Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# Local datasets
+data/raw/*
+data/processed/*
+data/evaluation/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/evaluation/.gitkeep
+
+# Hugging Face
+.cache/
+huggingface/
+
+# Environment
+.env
+*.local
