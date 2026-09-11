@@ -1,0 +1,50 @@
+{
+  "dataset_version": "0.1",
+  "difficulty_counts": {
+    "advanced": 29,
+    "basic": 1,
+    "expert": 5,
+    "intermediate": 5
+  },
+  "domain_counts": {
+    "compute-model-infrastructure": 3,
+    "computer-architecture": 4,
+    "distributed-systems": 3,
+    "embedded-systems": 3,
+    "engineering-reasoning": 3,
+    "linux-infrastructure": 4,
+    "networking": 3,
+    "operating-systems": 4,
+    "secure-engineering": 2,
+    "software-engineering": 6,
+    "systems-programming": 5
+  },
+  "id_range": [
+    "ce-software-pagination-delete-000201",
+    "ce-reasoning-amdahl-bound-000240"
+  ],
+  "records": 40,
+  "schema": "configs/dataset-record.schema.json",
+  "sha256": "d5f05d3dfd6f72990314e3410f06c96a7fc2e733fb11078416e126934c85078a",
+  "split": "validation",
+  "task_type_counts": {
+    "architecture-analysis": 3,
+    "code-repair": 3,
+    "debugging": 1,
+    "design": 6,
+    "failure-analysis": 6,
+    "implementation": 4,
+    "performance-analysis": 9,
+    "technical-decision": 6,
+    "troubleshooting": 2
+  },
+  "train_sha256": "baeb4c721f59aa725869d659bb14b2d858962eb64e12696b9c17c13e6001c406",
+  "verification_method_counts": {
+    "reference-answer": 8,
+    "rubric": 23,
+    "unit-test": 9
+  },
+  "verification_status": {
+    "verified": 40
+  }
+}

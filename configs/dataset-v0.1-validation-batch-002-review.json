@@ -1,0 +1,42 @@
+{
+  "dataset_version": "0.1",
+  "split": "validation",
+  "batch": "002",
+  "range": [
+    "000211",
+    "000220"
+  ],
+  "records": 10,
+  "domain_counts": {
+    "software-engineering": 1,
+    "systems-programming": 2,
+    "operating-systems": 1,
+    "computer-architecture": 1,
+    "embedded-systems": 1,
+    "linux-infrastructure": 1,
+    "engineering-reasoning": 1,
+    "compute-model-infrastructure": 1,
+    "secure-engineering": 1
+  },
+  "difficulty_counts": {
+    "advanced": 8,
+    "intermediate": 1,
+    "expert": 1
+  },
+  "verification_method_counts": {
+    "rubric": 6,
+    "unit-test": 2,
+    "reference-answer": 2
+  },
+  "task_type_counts": {
+    "design": 2,
+    "implementation": 1,
+    "code-repair": 1,
+    "technical-decision": 1,
+    "performance-analysis": 3,
+    "failure-analysis": 2
+  },
+  "duplicate_prompts": 0,
+  "duplicate_answers": 0,
+  "result": "PASS"
+}

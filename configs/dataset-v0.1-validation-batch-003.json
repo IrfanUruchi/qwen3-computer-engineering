@@ -1,0 +1,87 @@
+{
+  "dataset_version": "0.1",
+  "split": "validation",
+  "batch": "003",
+  "records": [
+    {
+      "id": "ce-software-job-heartbeat-000221",
+      "domain": "software-engineering",
+      "subdomain": "background-jobs",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-size-addition-000222",
+      "domain": "systems-programming",
+      "subdomain": "integer-overflow",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-os-futex-spurious-000223",
+      "domain": "operating-systems",
+      "subdomain": "futexes",
+      "task_type": "debugging",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-stride-conflict-000224",
+      "domain": "computer-architecture",
+      "subdomain": "cache-indexing",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-embedded-sensor-clamp-000225",
+      "domain": "embedded-systems",
+      "subdomain": "sensor-processing",
+      "task_type": "implementation",
+      "difficulty": "basic",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-networking-arp-stale-000226",
+      "domain": "networking",
+      "subdomain": "neighbor-discovery",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-distributed-causal-message-000227",
+      "domain": "distributed-systems",
+      "subdomain": "causal-ordering",
+      "task_type": "architecture-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-openat-path-000228",
+      "domain": "linux-infrastructure",
+      "subdomain": "filesystem-security",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-software-cache-version-key-000229",
+      "domain": "software-engineering",
+      "subdomain": "cache-consistency",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-hex-byte-000230",
+      "domain": "systems-programming",
+      "subdomain": "text-parsing",
+      "task_type": "implementation",
+      "difficulty": "intermediate",
+      "verification": "unit-test"
+    }
+  ]
+}

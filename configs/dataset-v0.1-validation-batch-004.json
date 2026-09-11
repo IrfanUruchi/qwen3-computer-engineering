@@ -1,0 +1,87 @@
+{
+  "dataset_version": "0.1",
+  "split": "validation",
+  "batch": "004",
+  "records": [
+    {
+      "id": "ce-os-scheduler-affinity-migration-000231",
+      "domain": "operating-systems",
+      "subdomain": "cpu-scheduling",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-architecture-false-dependency-000232",
+      "domain": "computer-architecture",
+      "subdomain": "register-dependencies",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-embedded-majority-sample-000233",
+      "domain": "embedded-systems",
+      "subdomain": "digital-input",
+      "task_type": "implementation",
+      "difficulty": "intermediate",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-networking-ecmp-hash-000234",
+      "domain": "networking",
+      "subdomain": "routing",
+      "task_type": "architecture-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-distributed-tombstone-retention-000235",
+      "domain": "distributed-systems",
+      "subdomain": "replicated-storage",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-fsync-directory-000236",
+      "domain": "linux-infrastructure",
+      "subdomain": "filesystem-durability",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-software-bulkhead-pool-000237",
+      "domain": "software-engineering",
+      "subdomain": "resilience",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-compute-tensor-bytes-000238",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "memory-accounting",
+      "task_type": "performance-analysis",
+      "difficulty": "intermediate",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-secure-session-fixation-000239",
+      "domain": "secure-engineering",
+      "subdomain": "session-management",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-amdahl-bound-000240",
+      "domain": "engineering-reasoning",
+      "subdomain": "performance-modeling",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    }
+  ]
+}

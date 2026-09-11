@@ -1,0 +1,87 @@
+{
+  "dataset_version": "0.1",
+  "split": "validation",
+  "batch": "002",
+  "records": [
+    {
+      "id": "ce-software-partial-response-000211",
+      "domain": "software-engineering",
+      "subdomain": "api-failures",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-writev-partial-000212",
+      "domain": "systems-programming",
+      "subdomain": "posix-io",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-shift-signed-000213",
+      "domain": "systems-programming",
+      "subdomain": "bit-operations",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-os-pipe-atomic-write-000214",
+      "domain": "operating-systems",
+      "subdomain": "pipes",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-btb-pressure-000215",
+      "domain": "computer-architecture",
+      "subdomain": "branch-prediction",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-embedded-brownout-state-000216",
+      "domain": "embedded-systems",
+      "subdomain": "power-failure",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-pid-reuse-000217",
+      "domain": "linux-infrastructure",
+      "subdomain": "process-management",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-reasoning-dimensional-bandwidth-000218",
+      "domain": "engineering-reasoning",
+      "subdomain": "dimensional-analysis",
+      "task_type": "performance-analysis",
+      "difficulty": "intermediate",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-compute-host-sync-000219",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "accelerator-synchronization",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-secure-ssrf-egress-000220",
+      "domain": "secure-engineering",
+      "subdomain": "ssrf",
+      "task_type": "design",
+      "difficulty": "expert",
+      "verification": "rubric"
+    }
+  ]
+}

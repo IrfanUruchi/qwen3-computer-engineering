@@ -1,0 +1,87 @@
+{
+  "dataset_version": "0.1",
+  "split": "validation",
+  "batch": "001",
+  "records": [
+    {
+      "id": "ce-software-pagination-delete-000201",
+      "domain": "software-engineering",
+      "subdomain": "pagination",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-strtol-validation-000202",
+      "domain": "systems-programming",
+      "subdomain": "numeric-parsing",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-os-thread-stack-overflow-000203",
+      "domain": "operating-systems",
+      "subdomain": "thread-stacks",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-architecture-rob-latency-000204",
+      "domain": "computer-architecture",
+      "subdomain": "out-of-order-execution",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-inotify-overflow-000205",
+      "domain": "linux-infrastructure",
+      "subdomain": "filesystem-events",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-reasoning-littles-law-000206",
+      "domain": "engineering-reasoning",
+      "subdomain": "queueing-analysis",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-software-lease-renewal-000207",
+      "domain": "software-engineering",
+      "subdomain": "distributed-locking",
+      "task_type": "design",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-networking-nagle-delayed-ack-000208",
+      "domain": "networking",
+      "subdomain": "tcp-latency",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-distributed-consistent-hash-churn-000209",
+      "domain": "distributed-systems",
+      "subdomain": "partitioning",
+      "task_type": "architecture-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-compute-activation-checkpoint-000210",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "training-memory",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    }
+  ]
+}

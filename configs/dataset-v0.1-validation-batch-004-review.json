@@ -1,0 +1,43 @@
+{
+  "dataset_version": "0.1",
+  "split": "validation",
+  "batch": "004",
+  "range": [
+    "000231",
+    "000240"
+  ],
+  "records": 10,
+  "domain_counts": {
+    "operating-systems": 1,
+    "computer-architecture": 1,
+    "embedded-systems": 1,
+    "networking": 1,
+    "distributed-systems": 1,
+    "linux-infrastructure": 1,
+    "software-engineering": 1,
+    "compute-model-infrastructure": 1,
+    "secure-engineering": 1,
+    "engineering-reasoning": 1
+  },
+  "difficulty_counts": {
+    "advanced": 6,
+    "intermediate": 2,
+    "expert": 2
+  },
+  "verification_method_counts": {
+    "rubric": 6,
+    "unit-test": 3,
+    "reference-answer": 1
+  },
+  "task_type_counts": {
+    "performance-analysis": 3,
+    "implementation": 1,
+    "architecture-analysis": 1,
+    "failure-analysis": 2,
+    "technical-decision": 2,
+    "design": 1
+  },
+  "duplicate_prompts": 0,
+  "duplicate_answers": 0,
+  "result": "PASS"
+}
