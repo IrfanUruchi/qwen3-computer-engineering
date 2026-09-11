@@ -51,3 +51,14 @@ logs/v0.1-evaluation-*
 research/private/
 research/runs/*/evaluation-responses.jsonl
 research/runs/*/evaluation-per-record.jsonl
+
+# Public research run metadata/protocols
+!research/runs/
+!research/runs/*/
+!research/runs/*/PROTOCOL.md
+!research/runs/*/run-manifest.json
+
+# Keep private evaluation outputs private
+research/runs/*/evaluation-responses.jsonl
+research/runs/*/evaluation-per-record.jsonl
+research/private/

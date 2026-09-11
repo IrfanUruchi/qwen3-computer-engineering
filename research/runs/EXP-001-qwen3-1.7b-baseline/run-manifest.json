@@ -1,0 +1,71 @@
+{
+  "experiment_id": "EXP-001",
+  "run_id": "qwen3-1.7b-baseline-v0.1",
+  "purpose": "Establish the untouched Qwen3 1.7B baseline on the frozen Qwen3 Computer Engineering v0.1 validation and private evaluation splits before any CE fine-tuning.",
+  "status": "prepared",
+  "code": {
+    "git_commit": "a6448a3759d0b72f670b7c55da5d87e8db78126a",
+    "dirty_worktree": false
+  },
+  "model": {
+    "name": "Qwen3 1.7B",
+    "provider_or_repo": "Qwen/Qwen3-1.7B",
+    "revision": "",
+    "checkpoint": "",
+    "parameter_count": 1700000000
+  },
+  "dataset": {
+    "version": "0.1",
+    "train_sha256": "baeb4c721f59aa725869d659bb14b2d858962eb64e12696b9c17c13e6001c406",
+    "validation_sha256": "d5f05d3dfd6f72990314e3410f06c96a7fc2e733fb11078416e126934c85078a",
+    "evaluation_sha256": "c6b4a1de585c0d39646c3334d5dffd3a735b693569c4db15c9a8ddd150e55523"
+  },
+  "reproducibility": {
+    "seed": null,
+    "python_version": "",
+    "framework": "",
+    "framework_version": ""
+  },
+  "hardware": {
+    "system": "",
+    "cpu": "",
+    "ram": "",
+    "accelerator": "",
+    "accelerator_memory": ""
+  },
+  "generation": {
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "max_new_tokens": null
+  },
+  "training": {
+    "method": null,
+    "epochs": null,
+    "learning_rate": null,
+    "batch_size": null,
+    "gradient_accumulation": null,
+    "lora_rank": null,
+    "lora_alpha": null,
+    "lora_dropout": null
+  },
+  "checkpoint_selection": {
+    "criterion": "No checkpoint selection: untouched base model baseline.",
+    "validation_only": true
+  },
+  "results": {
+    "validation": null,
+    "evaluation": null
+  },
+  "timing": {
+    "started_at": "",
+    "finished_at": "",
+    "duration_seconds": null
+  },
+  "notes": [
+    "Baseline must be completed before any CE fine-tuning.",
+    "Validation may be inspected for harness development.",
+    "Private evaluation prompts and per-record outputs remain private.",
+    "Exact model revision must be recorded before execution."
+  ]
+}
