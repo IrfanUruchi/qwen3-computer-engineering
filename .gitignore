@@ -68,3 +68,8 @@ research/runs/*/artifacts/
 
 # Raw model-generation research artifacts
 research/runs/*/artifacts/
+
+# Local Python evaluation environment
+.venv-eval/
+__pycache__/
+*.py[cod]
