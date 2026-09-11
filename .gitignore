@@ -40,3 +40,9 @@ huggingface/
 # Environment
 .env
 *.local
+
+# Private v0.1 evaluation split
+generators/evaluation_*.py
+configs/dataset-v0.1-evaluation-*.json
+data/raw/v0.1/verification-evaluation/
+logs/v0.1-evaluation-*
