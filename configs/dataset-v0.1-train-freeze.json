@@ -1,0 +1,59 @@
+{
+  "dataset_version": "0.1",
+  "difficulty_counts": {
+    "advanced": 118,
+    "basic": 12,
+    "expert": 30,
+    "intermediate": 40
+  },
+  "domain_counts": {
+    "compute-model-infrastructure": 15,
+    "computer-architecture": 20,
+    "distributed-systems": 15,
+    "embedded-systems": 15,
+    "engineering-reasoning": 15,
+    "linux-infrastructure": 20,
+    "networking": 15,
+    "operating-systems": 20,
+    "secure-engineering": 10,
+    "software-engineering": 30,
+    "systems-programming": 25
+  },
+  "id_range": [
+    "ce-linux-systemd-debug-000001",
+    "ce-compute-model-shard-balance-000200"
+  ],
+  "records": 200,
+  "schema": "configs/dataset-record.schema.json",
+  "sha256": "baeb4c721f59aa725869d659bb14b2d858962eb64e12696b9c17c13e6001c406",
+  "source_type_counts": {
+    "documentation": 35,
+    "original": 165
+  },
+  "split": "train",
+  "task_type_counts": {
+    "architecture-analysis": 13,
+    "code-repair": 22,
+    "configuration": 6,
+    "debugging": 12,
+    "design": 28,
+    "explanation": 1,
+    "failure-analysis": 15,
+    "implementation": 21,
+    "performance-analysis": 36,
+    "technical-decision": 15,
+    "testing": 4,
+    "troubleshooting": 27
+  },
+  "verification_method_counts": {
+    "compile": 1,
+    "execute": 30,
+    "multiple": 1,
+    "reference-answer": 35,
+    "rubric": 95,
+    "unit-test": 38
+  },
+  "verification_status": {
+    "verified": 200
+  }
+}

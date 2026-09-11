@@ -1,0 +1,16 @@
+{
+  "batch": "004",
+  "dataset_version": "0.1",
+  "records": [
+    {"id":"ce-software-db-pool-000031","domain":"software-engineering","subdomain":"database-pooling","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-systems-endian-decode-000032","domain":"systems-programming","subdomain":"endianness","task_type":"implementation","difficulty":"intermediate","verification":"unit-test"},
+    {"id":"ce-os-page-cache-000033","domain":"operating-systems","subdomain":"page-cache","task_type":"architecture-analysis","difficulty":"advanced","verification":"reference-answer"},
+    {"id":"ce-architecture-cache-layout-000034","domain":"computer-architecture","subdomain":"cache-locality","task_type":"performance-analysis","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-embedded-debounce-000035","domain":"embedded-systems","subdomain":"input-debouncing","task_type":"implementation","difficulty":"basic","verification":"unit-test"},
+    {"id":"ce-networking-conntrack-000036","domain":"networking","subdomain":"conntrack","task_type":"failure-analysis","difficulty":"advanced","verification":"reference-answer"},
+    {"id":"ce-distributed-leader-lease-000037","domain":"distributed-systems","subdomain":"leader-leases","task_type":"architecture-analysis","difficulty":"expert","verification":"rubric"},
+    {"id":"ce-linux-disk-inodes-000038","domain":"linux-infrastructure","subdomain":"filesystem-inodes","task_type":"troubleshooting","difficulty":"intermediate","verification":"execute"},
+    {"id":"ce-compute-quantization-memory-000039","domain":"compute-model-infrastructure","subdomain":"quantization","task_type":"technical-decision","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-security-command-injection-000040","domain":"secure-engineering","subdomain":"command-injection","task_type":"code-repair","difficulty":"expert","verification":"unit-test"}
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "version": "0.1",
+  "status": "planning",
+  "targets": {
+    "train": 200,
+    "validation": 40,
+    "evaluation": 60
+  },
+  "domains": {
+    "software-engineering": {
+      "train": 30,
+      "validation": 6,
+      "evaluation": 9
+    },
+    "systems-programming": {
+      "train": 25,
+      "validation": 5,
+      "evaluation": 8
+    },
+    "operating-systems": {
+      "train": 20,
+      "validation": 4,
+      "evaluation": 6
+    },
+    "computer-architecture": {
+      "train": 20,
+      "validation": 4,
+      "evaluation": 6
+    },
+    "embedded-systems": {
+      "train": 15,
+      "validation": 3,
+      "evaluation": 4
+    },
+    "networking": {
+      "train": 15,
+      "validation": 3,
+      "evaluation": 4
+    },
+    "distributed-systems": {
+      "train": 15,
+      "validation": 3,
+      "evaluation": 4
+    },
+    "linux-infrastructure": {
+      "train": 20,
+      "validation": 4,
+      "evaluation": 6
+    },
+    "compute-model-infrastructure": {
+      "train": 15,
+      "validation": 3,
+      "evaluation": 4
+    },
+    "secure-engineering": {
+      "train": 10,
+      "validation": 2,
+      "evaluation": 3
+    },
+    "engineering-reasoning": {
+      "train": 15,
+      "validation": 3,
+      "evaluation": 6
+    }
+  }
+}

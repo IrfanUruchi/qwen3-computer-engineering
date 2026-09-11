@@ -1,0 +1,36 @@
+{
+  "batch": "016",
+  "dataset_version": "0.1",
+  "records": 10,
+  "status": "reviewed",
+  "result": "pass",
+  "range": {
+    "first": "ce-software-config-validation-000151",
+    "last": "ce-compute-load-deserialization-000160"
+  },
+  "findings": {
+    "unique_ids": true,
+    "plan_alignment": true,
+    "all_verified": true,
+    "exact_prompt_duplicates": 0,
+    "exact_answer_duplicates": 0,
+    "unique_domains": 9
+  },
+  "difficulty": {
+    "advanced": 6,
+    "expert": 1,
+    "intermediate": 3
+  },
+  "verification": {
+    "reference-answer": 3,
+    "rubric": 6,
+    "unit-test": 1
+  },
+  "task_types": {
+    "code-repair": 1,
+    "design": 3,
+    "failure-analysis": 1,
+    "performance-analysis": 3,
+    "troubleshooting": 2
+  }
+}

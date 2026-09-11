@@ -1,0 +1,86 @@
+{
+  "batch": "011",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-transaction-retry-000101",
+      "domain": "software-engineering",
+      "subdomain": "database-transactions",
+      "task_type": "debugging",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-software-cache-stampede-000102",
+      "domain": "software-engineering",
+      "subdomain": "caching",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-string-termination-000103",
+      "domain": "systems-programming",
+      "subdomain": "string-handling",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-systems-short-read-loop-000104",
+      "domain": "systems-programming",
+      "subdomain": "posix-io",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-os-priority-inversion-000105",
+      "domain": "operating-systems",
+      "subdomain": "scheduling",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-architecture-branchless-tradeoff-000106",
+      "domain": "computer-architecture",
+      "subdomain": "branch-prediction",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-systemd-socket-activation-000107",
+      "domain": "linux-infrastructure",
+      "subdomain": "systemd-socket-activation",
+      "task_type": "configuration",
+      "difficulty": "intermediate",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-networking-tcp-half-close-000108",
+      "domain": "networking",
+      "subdomain": "tcp-half-close",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-reasoning-p99-queue-delay-000109",
+      "domain": "engineering-reasoning",
+      "subdomain": "latency-analysis",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-heisenbug-logging-000110",
+      "domain": "engineering-reasoning",
+      "subdomain": "concurrency-debugging",
+      "task_type": "debugging",
+      "difficulty": "expert",
+      "verification": "rubric"
+    }
+  ]
+}

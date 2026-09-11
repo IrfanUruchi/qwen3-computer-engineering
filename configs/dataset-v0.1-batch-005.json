@@ -1,0 +1,16 @@
+{
+  "batch": "005",
+  "dataset_version": "0.1",
+  "records": [
+    {"id":"ce-software-cache-invalidation-000041","domain":"software-engineering","subdomain":"cache-consistency","task_type":"design","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-systems-partial-write-000042","domain":"systems-programming","subdomain":"posix-io","task_type":"code-repair","difficulty":"advanced","verification":"unit-test"},
+    {"id":"ce-os-scheduler-latency-000043","domain":"operating-systems","subdomain":"scheduling","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-architecture-alignment-000044","domain":"computer-architecture","subdomain":"memory-alignment","task_type":"architecture-analysis","difficulty":"intermediate","verification":"execute"},
+    {"id":"ce-embedded-adc-scaling-000045","domain":"embedded-systems","subdomain":"adc","task_type":"implementation","difficulty":"basic","verification":"unit-test"},
+    {"id":"ce-networking-tcp-backlog-000046","domain":"networking","subdomain":"tcp-backlog","task_type":"failure-analysis","difficulty":"advanced","verification":"reference-answer"},
+    {"id":"ce-distributed-replica-lag-000047","domain":"distributed-systems","subdomain":"replication-lag","task_type":"technical-decision","difficulty":"expert","verification":"rubric"},
+    {"id":"ce-linux-systemd-restart-loop-000048","domain":"linux-infrastructure","subdomain":"systemd","task_type":"troubleshooting","difficulty":"intermediate","verification":"execute"},
+    {"id":"ce-compute-prefill-decode-000049","domain":"compute-model-infrastructure","subdomain":"prefill-decode","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-security-sql-parameterization-000050","domain":"secure-engineering","subdomain":"sql-injection","task_type":"code-repair","difficulty":"expert","verification":"unit-test"}
+  ]
+}

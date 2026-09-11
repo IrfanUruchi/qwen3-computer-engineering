@@ -1,0 +1,86 @@
+{
+  "batch": "013",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-graceful-shutdown-000121",
+      "domain": "software-engineering",
+      "subdomain": "service-lifecycle",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-signed-decode-000122",
+      "domain": "systems-programming",
+      "subdomain": "binary-parsing",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-reasoning-baseline-selection-000123",
+      "domain": "engineering-reasoning",
+      "subdomain": "experimental-design",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-os-thundering-wakeup-000124",
+      "domain": "operating-systems",
+      "subdomain": "synchronization",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-architecture-release-sequence-000125",
+      "domain": "computer-architecture",
+      "subdomain": "memory-ordering",
+      "task_type": "architecture-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-sparse-file-000126",
+      "domain": "linux-infrastructure",
+      "subdomain": "filesystem-space",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-software-retry-budget-000127",
+      "domain": "software-engineering",
+      "subdomain": "retries",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-realloc-safe-000128",
+      "domain": "systems-programming",
+      "subdomain": "memory-allocation",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-compute-pinned-memory-000129",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "host-device-transfer",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-security-password-storage-000130",
+      "domain": "secure-engineering",
+      "subdomain": "password-storage",
+      "task_type": "design",
+      "difficulty": "expert",
+      "verification": "rubric"
+    }
+  ]
+}

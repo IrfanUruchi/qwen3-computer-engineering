@@ -1,0 +1,16 @@
+{
+  "batch": "006",
+  "dataset_version": "0.1",
+  "records": [
+    {"id":"ce-software-schema-migration-000051","domain":"software-engineering","subdomain":"database-migrations","task_type":"design","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-systems-signed-unsigned-000052","domain":"systems-programming","subdomain":"integer-conversions","task_type":"debugging","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-os-mmap-read-choice-000053","domain":"operating-systems","subdomain":"file-io","task_type":"technical-decision","difficulty":"intermediate","verification":"reference-answer"},
+    {"id":"ce-architecture-prefetch-stride-000054","domain":"computer-architecture","subdomain":"hardware-prefetching","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-embedded-watchdog-000055","domain":"embedded-systems","subdomain":"watchdog","task_type":"failure-analysis","difficulty":"basic","verification":"unit-test"},
+    {"id":"ce-networking-ephemeral-ports-000056","domain":"networking","subdomain":"ephemeral-ports","task_type":"troubleshooting","difficulty":"advanced","verification":"reference-answer"},
+    {"id":"ce-distributed-clock-ordering-000057","domain":"distributed-systems","subdomain":"logical-clocks","task_type":"architecture-analysis","difficulty":"expert","verification":"rubric"},
+    {"id":"ce-linux-tmpfiles-000058","domain":"linux-infrastructure","subdomain":"tmpfiles","task_type":"configuration","difficulty":"intermediate","verification":"execute"},
+    {"id":"ce-compute-tensor-parallel-000059","domain":"compute-model-infrastructure","subdomain":"tensor-parallelism","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-security-reset-token-000060","domain":"secure-engineering","subdomain":"password-reset","task_type":"design","difficulty":"expert","verification":"rubric"}
+  ]
+}

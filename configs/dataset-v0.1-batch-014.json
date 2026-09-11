@@ -1,0 +1,86 @@
+{
+  "batch": "014",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-index-selectivity-000131",
+      "domain": "software-engineering",
+      "subdomain": "database-indexing",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-length-overflow-000132",
+      "domain": "systems-programming",
+      "subdomain": "integer-overflow",
+      "task_type": "code-repair",
+      "difficulty": "expert",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-reasoning-hypothesis-ranking-000133",
+      "domain": "engineering-reasoning",
+      "subdomain": "debugging-methodology",
+      "task_type": "debugging",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-os-mmap-truncate-000134",
+      "domain": "operating-systems",
+      "subdomain": "virtual-memory",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-unaligned-access-000135",
+      "domain": "computer-architecture",
+      "subdomain": "memory-alignment",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-apparent-size-000136",
+      "domain": "linux-infrastructure",
+      "subdomain": "filesystem-space",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-software-circuit-breaker-000137",
+      "domain": "software-engineering",
+      "subdomain": "resilience",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-errno-preservation-000138",
+      "domain": "systems-programming",
+      "subdomain": "error-handling",
+      "task_type": "debugging",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-compute-quantization-latency-000139",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "quantization",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-confounded-benchmark-000140",
+      "domain": "engineering-reasoning",
+      "subdomain": "experimental-design",
+      "task_type": "testing",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    }
+  ]
+}

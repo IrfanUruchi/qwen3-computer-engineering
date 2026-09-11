@@ -1,0 +1,16 @@
+{
+  "batch": "009",
+  "dataset_version": "0.1",
+  "records": [
+    {"id":"ce-software-cursor-pagination-000081","domain":"software-engineering","subdomain":"pagination","task_type":"design","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-systems-shift-width-000082","domain":"systems-programming","subdomain":"bit-operations","task_type":"code-repair","difficulty":"advanced","verification":"unit-test"},
+    {"id":"ce-os-signal-interruption-000083","domain":"operating-systems","subdomain":"signals","task_type":"troubleshooting","difficulty":"intermediate","verification":"reference-answer"},
+    {"id":"ce-architecture-cache-associativity-000084","domain":"computer-architecture","subdomain":"cache-associativity","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-embedded-crc-frame-000085","domain":"embedded-systems","subdomain":"crc","task_type":"implementation","difficulty":"intermediate","verification":"unit-test"},
+    {"id":"ce-networking-asymmetric-routing-000086","domain":"networking","subdomain":"routing","task_type":"troubleshooting","difficulty":"advanced","verification":"reference-answer"},
+    {"id":"ce-distributed-commit-index-000087","domain":"distributed-systems","subdomain":"consensus","task_type":"architecture-analysis","difficulty":"expert","verification":"rubric"},
+    {"id":"ce-linux-file-retention-000088","domain":"linux-infrastructure","subdomain":"filesystem-cleanup","task_type":"configuration","difficulty":"basic","verification":"execute"},
+    {"id":"ce-compute-pcie-transfer-000089","domain":"compute-model-infrastructure","subdomain":"host-device-transfer","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-security-csrf-defense-000090","domain":"secure-engineering","subdomain":"csrf","task_type":"code-repair","difficulty":"expert","verification":"unit-test"}
+  ]
+}

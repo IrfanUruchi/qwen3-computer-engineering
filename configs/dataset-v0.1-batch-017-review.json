@@ -1,0 +1,41 @@
+{
+  "batch": "017",
+  "dataset_version": "0.1",
+  "records": 10,
+  "status": "reviewed",
+  "result": "pass",
+  "range": {
+    "first": "ce-software-async-cancellation-000161",
+    "last": "ce-compute-padding-waste-000170"
+  },
+  "findings": {
+    "unique_ids": true,
+    "plan_alignment": true,
+    "all_verified": true,
+    "exact_prompt_duplicates": 0,
+    "exact_answer_duplicates": 0,
+    "unique_domains": 9
+  },
+  "difficulty": {
+    "advanced": 6,
+    "basic": 1,
+    "expert": 2,
+    "intermediate": 1
+  },
+  "verification": {
+    "execute": 2,
+    "reference-answer": 1,
+    "rubric": 6,
+    "unit-test": 1
+  },
+  "task_types": {
+    "architecture-analysis": 2,
+    "code-repair": 1,
+    "debugging": 1,
+    "design": 1,
+    "failure-analysis": 1,
+    "implementation": 1,
+    "performance-analysis": 2,
+    "testing": 1
+  }
+}

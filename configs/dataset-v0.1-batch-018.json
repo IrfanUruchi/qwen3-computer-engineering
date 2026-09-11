@@ -1,0 +1,86 @@
+{
+  "batch": "018",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-pagination-snapshot-000171",
+      "domain": "software-engineering",
+      "subdomain": "pagination-consistency",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-unaligned-u32-000172",
+      "domain": "systems-programming",
+      "subdomain": "binary-decoding",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-embedded-hysteresis-switch-000173",
+      "domain": "embedded-systems",
+      "subdomain": "hysteresis",
+      "task_type": "implementation",
+      "difficulty": "intermediate",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-networking-nat-idle-timeout-000174",
+      "domain": "networking",
+      "subdomain": "nat-state",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-os-cloexec-inheritance-000175",
+      "domain": "operating-systems",
+      "subdomain": "process-exec",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-architecture-write-combining-000176",
+      "domain": "computer-architecture",
+      "subdomain": "memory-stores",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-umask-mode-000177",
+      "domain": "linux-infrastructure",
+      "subdomain": "permissions",
+      "task_type": "configuration",
+      "difficulty": "basic",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-reasoning-bottleneck-shift-000178",
+      "domain": "engineering-reasoning",
+      "subdomain": "optimization-methodology",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-measurement-resolution-000179",
+      "domain": "engineering-reasoning",
+      "subdomain": "measurement",
+      "task_type": "testing",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-frame-length-000180",
+      "domain": "systems-programming",
+      "subdomain": "protocol-framing",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    }
+  ]
+}

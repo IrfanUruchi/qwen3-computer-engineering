@@ -1,0 +1,86 @@
+{
+  "batch": "019",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-request-deadline-000181",
+      "domain": "software-engineering",
+      "subdomain": "request-deadlines",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-ring-index-000182",
+      "domain": "systems-programming",
+      "subdomain": "ring-buffer",
+      "task_type": "implementation",
+      "difficulty": "intermediate",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-os-fork-buffer-duplication-000183",
+      "domain": "operating-systems",
+      "subdomain": "process-io",
+      "task_type": "failure-analysis",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-cache-line-straddle-000184",
+      "domain": "computer-architecture",
+      "subdomain": "memory-layout",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-embedded-wrap-timeout-000185",
+      "domain": "embedded-systems",
+      "subdomain": "timers",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-software-outbox-publication-000186",
+      "domain": "software-engineering",
+      "subdomain": "transactional-outbox",
+      "task_type": "design",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-frame-count-limit-000187",
+      "domain": "systems-programming",
+      "subdomain": "protocol-parsing",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-networking-udp-truncation-000188",
+      "domain": "networking",
+      "subdomain": "udp",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-distributed-read-repair-000189",
+      "domain": "distributed-systems",
+      "subdomain": "replication",
+      "task_type": "technical-decision",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-bind-mount-000190",
+      "domain": "linux-infrastructure",
+      "subdomain": "mounts",
+      "task_type": "architecture-analysis",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    }
+  ]
+}

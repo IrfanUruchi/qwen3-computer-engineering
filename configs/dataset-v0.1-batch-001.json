@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ce-linux-systemd-debug-000001",
+    "domain": "linux-infrastructure",
+    "subdomain": "systemd",
+    "task_type": "debugging",
+    "difficulty": "intermediate",
+    "verification": "reference-answer",
+    "objective": "Diagnose a systemd service execution failure."
+  },
+  {
+    "id": "ce-networking-tcp-debug-000002",
+    "domain": "networking",
+    "subdomain": "tcp",
+    "task_type": "troubleshooting",
+    "difficulty": "intermediate",
+    "verification": "reference-answer",
+    "objective": "Diagnose remote TCP reachability failure."
+  },
+  {
+    "id": "ce-software-concurrency-repair-000003",
+    "domain": "software-engineering",
+    "subdomain": "concurrency",
+    "task_type": "code-repair",
+    "difficulty": "advanced",
+    "verification": "unit-test",
+    "objective": "Repair a race condition without changing required behavior."
+  },
+  {
+    "id": "ce-systems-memory-debug-000004",
+    "domain": "systems-programming",
+    "subdomain": "memory-management",
+    "task_type": "debugging",
+    "difficulty": "advanced",
+    "verification": "compile",
+    "objective": "Identify and repair an unsafe memory-management bug."
+  },
+  {
+    "id": "ce-os-virtual-memory-000005",
+    "domain": "operating-systems",
+    "subdomain": "virtual-memory",
+    "task_type": "explanation",
+    "difficulty": "advanced",
+    "verification": "reference-answer",
+    "objective": "Reason about page faults, residency, and memory pressure."
+  },
+  {
+    "id": "ce-architecture-cache-analysis-000006",
+    "domain": "computer-architecture",
+    "subdomain": "cache-coherency",
+    "task_type": "performance-analysis",
+    "difficulty": "advanced",
+    "verification": "rubric",
+    "objective": "Diagnose performance loss caused by cache-line contention."
+  },
+  {
+    "id": "ce-embedded-interrupt-debug-000007",
+    "domain": "embedded-systems",
+    "subdomain": "interrupts",
+    "task_type": "debugging",
+    "difficulty": "intermediate",
+    "verification": "rubric",
+    "objective": "Diagnose incorrect interrupt-driven peripheral behavior."
+  },
+  {
+    "id": "ce-distributed-retry-failure-000008",
+    "domain": "distributed-systems",
+    "subdomain": "retries",
+    "task_type": "failure-analysis",
+    "difficulty": "advanced",
+    "verification": "rubric",
+    "objective": "Analyze retry amplification during a partial service failure."
+  },
+  {
+    "id": "ce-compute-gpu-memory-000009",
+    "domain": "compute-model-infrastructure",
+    "subdomain": "gpu-memory",
+    "task_type": "technical-decision",
+    "difficulty": "advanced",
+    "verification": "rubric",
+    "objective": "Choose between memory-saving approaches under GPU constraints."
+  },
+  {
+    "id": "ce-reasoning-bottleneck-000010",
+    "domain": "engineering-reasoning",
+    "subdomain": "bottleneck-analysis",
+    "task_type": "technical-decision",
+    "difficulty": "advanced",
+    "verification": "rubric",
+    "objective": "Separate measured bottlenecks from unsupported assumptions."
+  }
+]

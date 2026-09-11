@@ -1,0 +1,38 @@
+{
+  "batch": "001",
+  "dataset_version": "0.1",
+  "records": 10,
+  "status": "reviewed",
+  "result": "pass",
+  "range": {
+    "first": "ce-linux-systemd-debug-000001",
+    "last": "ce-reasoning-bottleneck-000010"
+  },
+  "findings": {
+    "unique_ids": true,
+    "plan_alignment": true,
+    "all_verified": true,
+    "exact_prompt_duplicates": 0,
+    "exact_answer_duplicates": 0,
+    "unique_domains": 10
+  },
+  "difficulty": {
+    "advanced": 7,
+    "intermediate": 3
+  },
+  "verification": {
+    "compile": 1,
+    "reference-answer": 3,
+    "rubric": 5,
+    "unit-test": 1
+  },
+  "task_types": {
+    "code-repair": 1,
+    "debugging": 3,
+    "explanation": 1,
+    "failure-analysis": 1,
+    "performance-analysis": 1,
+    "technical-decision": 2,
+    "troubleshooting": 1
+  }
+}

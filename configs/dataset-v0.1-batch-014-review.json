@@ -1,0 +1,39 @@
+{
+  "batch": "014",
+  "dataset_version": "0.1",
+  "records": 10,
+  "status": "reviewed",
+  "result": "pass",
+  "range": {
+    "first": "ce-software-index-selectivity-000131",
+    "last": "ce-reasoning-confounded-benchmark-000140"
+  },
+  "findings": {
+    "unique_ids": true,
+    "plan_alignment": true,
+    "all_verified": true,
+    "exact_prompt_duplicates": 0,
+    "exact_answer_duplicates": 0,
+    "unique_domains": 7
+  },
+  "difficulty": {
+    "advanced": 6,
+    "expert": 2,
+    "intermediate": 2
+  },
+  "verification": {
+    "execute": 1,
+    "reference-answer": 3,
+    "rubric": 6
+  },
+  "task_types": {
+    "code-repair": 1,
+    "debugging": 2,
+    "design": 1,
+    "failure-analysis": 1,
+    "performance-analysis": 2,
+    "technical-decision": 1,
+    "testing": 1,
+    "troubleshooting": 1
+  }
+}

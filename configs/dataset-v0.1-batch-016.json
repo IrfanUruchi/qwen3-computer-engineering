@@ -1,0 +1,86 @@
+{
+  "batch": "016",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-config-validation-000151",
+      "domain": "software-engineering",
+      "subdomain": "configuration",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-buffer-offset-000152",
+      "domain": "systems-programming",
+      "subdomain": "binary-parsing",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-reasoning-noisy-benchmark-000153",
+      "domain": "engineering-reasoning",
+      "subdomain": "benchmark-methodology",
+      "task_type": "performance-analysis",
+      "difficulty": "intermediate",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-os-pipe-backpressure-000154",
+      "domain": "operating-systems",
+      "subdomain": "pipes",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-store-forwarding-000155",
+      "domain": "computer-architecture",
+      "subdomain": "memory-dependencies",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-tmpfs-capacity-000156",
+      "domain": "linux-infrastructure",
+      "subdomain": "tmpfs",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-software-webhook-idempotency-000157",
+      "domain": "software-engineering",
+      "subdomain": "webhook-processing",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-networking-syn-retransmission-000158",
+      "domain": "networking",
+      "subdomain": "tcp-handshake",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-distributed-fencing-token-000159",
+      "domain": "distributed-systems",
+      "subdomain": "leader-fencing",
+      "task_type": "design",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-compute-load-deserialization-000160",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "model-loading",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    }
+  ]
+}

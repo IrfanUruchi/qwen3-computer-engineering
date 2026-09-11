@@ -1,0 +1,16 @@
+{
+  "batch": "008",
+  "dataset_version": "0.1",
+  "records": [
+    {"id":"ce-software-feature-rollout-000071","domain":"software-engineering","subdomain":"feature-rollouts","task_type":"design","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-systems-varint-decode-000072","domain":"systems-programming","subdomain":"binary-parsing","task_type":"implementation","difficulty":"advanced","verification":"unit-test"},
+    {"id":"ce-os-fsync-durability-000073","domain":"operating-systems","subdomain":"filesystem-durability","task_type":"technical-decision","difficulty":"advanced","verification":"reference-answer"},
+    {"id":"ce-architecture-simd-tail-000074","domain":"computer-architecture","subdomain":"simd","task_type":"code-repair","difficulty":"intermediate","verification":"unit-test"},
+    {"id":"ce-embedded-moving-average-000075","domain":"embedded-systems","subdomain":"signal-filtering","task_type":"implementation","difficulty":"basic","verification":"unit-test"},
+    {"id":"ce-networking-dns-negative-cache-000076","domain":"networking","subdomain":"dns-caching","task_type":"troubleshooting","difficulty":"intermediate","verification":"reference-answer"},
+    {"id":"ce-distributed-saga-compensation-000077","domain":"distributed-systems","subdomain":"sagas","task_type":"design","difficulty":"expert","verification":"rubric"},
+    {"id":"ce-linux-unlinked-open-file-000078","domain":"linux-infrastructure","subdomain":"filesystem-space","task_type":"failure-analysis","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-compute-kv-fragmentation-000079","domain":"compute-model-infrastructure","subdomain":"kv-memory-management","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-security-webhook-replay-000080","domain":"secure-engineering","subdomain":"webhook-authentication","task_type":"code-repair","difficulty":"expert","verification":"unit-test"}
+  ]
+}

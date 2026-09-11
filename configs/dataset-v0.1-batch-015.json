@@ -1,0 +1,86 @@
+{
+  "batch": "015",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-event-schema-000141",
+      "domain": "software-engineering",
+      "subdomain": "event-schema",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-narrowing-conversion-000142",
+      "domain": "systems-programming",
+      "subdomain": "integer-conversions",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-reasoning-canary-causality-000143",
+      "domain": "engineering-reasoning",
+      "subdomain": "experimental-design",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-os-load-average-io-000144",
+      "domain": "operating-systems",
+      "subdomain": "scheduling",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-prefetch-overfetch-000145",
+      "domain": "computer-architecture",
+      "subdomain": "hardware-prefetching",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-symlink-config-swap-000146",
+      "domain": "linux-infrastructure",
+      "subdomain": "deployment-files",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-software-pool-timeout-000147",
+      "domain": "software-engineering",
+      "subdomain": "connection-pooling",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-distributed-consumer-dedup-000148",
+      "domain": "distributed-systems",
+      "subdomain": "message-processing",
+      "task_type": "design",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-networking-mss-tunnel-000149",
+      "domain": "networking",
+      "subdomain": "tcp-mss",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-embedded-i2c-pullup-000150",
+      "domain": "embedded-systems",
+      "subdomain": "i2c",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    }
+  ]
+}

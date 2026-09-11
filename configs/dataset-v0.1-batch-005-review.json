@@ -1,0 +1,41 @@
+{
+  "batch": "005",
+  "dataset_version": "0.1",
+  "records": 10,
+  "status": "reviewed",
+  "result": "pass",
+  "range": {
+    "first": "ce-software-cache-invalidation-000041",
+    "last": "ce-security-sql-parameterization-000050"
+  },
+  "findings": {
+    "unique_ids": true,
+    "plan_alignment": true,
+    "all_verified": true,
+    "exact_prompt_duplicates": 0,
+    "exact_answer_duplicates": 0,
+    "unique_domains": 10
+  },
+  "difficulty": {
+    "advanced": 5,
+    "basic": 1,
+    "expert": 2,
+    "intermediate": 2
+  },
+  "verification": {
+    "execute": 2,
+    "reference-answer": 1,
+    "rubric": 4,
+    "unit-test": 3
+  },
+  "task_types": {
+    "architecture-analysis": 1,
+    "code-repair": 2,
+    "design": 1,
+    "failure-analysis": 1,
+    "implementation": 1,
+    "performance-analysis": 2,
+    "technical-decision": 1,
+    "troubleshooting": 1
+  }
+}

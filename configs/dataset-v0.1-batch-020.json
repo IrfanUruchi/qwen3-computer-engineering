@@ -1,0 +1,86 @@
+{
+  "batch": "020",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-health-check-000191",
+      "domain": "software-engineering",
+      "subdomain": "service-health",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-overlap-range-000192",
+      "domain": "systems-programming",
+      "subdomain": "memory-ranges",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-os-zombie-process-000193",
+      "domain": "operating-systems",
+      "subdomain": "process-lifecycle",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-memory-level-parallelism-000194",
+      "domain": "computer-architecture",
+      "subdomain": "memory-level-parallelism",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-embedded-adc-calibration-000195",
+      "domain": "embedded-systems",
+      "subdomain": "adc-calibration",
+      "task_type": "implementation",
+      "difficulty": "intermediate",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-software-token-bucket-000196",
+      "domain": "software-engineering",
+      "subdomain": "rate-limiting",
+      "task_type": "implementation",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-atomic-symlink-000197",
+      "domain": "linux-infrastructure",
+      "subdomain": "deployment-files",
+      "task_type": "configuration",
+      "difficulty": "advanced",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-networking-dns-tcp-fallback-000198",
+      "domain": "networking",
+      "subdomain": "dns-transport",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-distributed-quorum-loss-000199",
+      "domain": "distributed-systems",
+      "subdomain": "consensus",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-compute-model-shard-balance-000200",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "model-sharding",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    }
+  ]
+}

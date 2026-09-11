@@ -1,0 +1,16 @@
+{
+  "batch": "007",
+  "dataset_version": "0.1",
+  "records": [
+    {"id":"ce-software-request-dedup-000061","domain":"software-engineering","subdomain":"request-deduplication","task_type":"design","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-systems-buffer-overlap-000062","domain":"systems-programming","subdomain":"memory-copy","task_type":"code-repair","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-os-cow-fault-000063","domain":"operating-systems","subdomain":"virtual-memory","task_type":"architecture-analysis","difficulty":"intermediate","verification":"reference-answer"},
+    {"id":"ce-architecture-tlb-pressure-000064","domain":"computer-architecture","subdomain":"tlb","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-embedded-fixed-point-000065","domain":"embedded-systems","subdomain":"fixed-point","task_type":"implementation","difficulty":"basic","verification":"unit-test"},
+    {"id":"ce-networking-rst-debug-000066","domain":"networking","subdomain":"tcp-reset","task_type":"troubleshooting","difficulty":"intermediate","verification":"reference-answer"},
+    {"id":"ce-distributed-split-brain-000067","domain":"distributed-systems","subdomain":"split-brain","task_type":"failure-analysis","difficulty":"expert","verification":"rubric"},
+    {"id":"ce-linux-cgroup-memory-000068","domain":"linux-infrastructure","subdomain":"cgroups","task_type":"troubleshooting","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-compute-checkpoint-bandwidth-000069","domain":"compute-model-infrastructure","subdomain":"checkpoint-loading","task_type":"performance-analysis","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-security-session-rotation-000070","domain":"secure-engineering","subdomain":"session-management","task_type":"design","difficulty":"expert","verification":"rubric"}
+  ]
+}

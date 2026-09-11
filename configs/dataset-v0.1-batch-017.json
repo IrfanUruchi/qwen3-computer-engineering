@@ -1,0 +1,86 @@
+{
+  "batch": "017",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-async-cancellation-000161",
+      "domain": "software-engineering",
+      "subdomain": "async-lifecycle",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-fd-ownership-000162",
+      "domain": "systems-programming",
+      "subdomain": "file-descriptors",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-embedded-saturating-counter-000163",
+      "domain": "embedded-systems",
+      "subdomain": "counters",
+      "task_type": "implementation",
+      "difficulty": "basic",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-os-epoll-edge-triggered-000164",
+      "domain": "operating-systems",
+      "subdomain": "event-notification",
+      "task_type": "debugging",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-numa-first-touch-000165",
+      "domain": "computer-architecture",
+      "subdomain": "numa",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-hard-link-inode-000166",
+      "domain": "linux-infrastructure",
+      "subdomain": "filesystem-links",
+      "task_type": "architecture-analysis",
+      "difficulty": "intermediate",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-reasoning-saturation-test-000167",
+      "domain": "engineering-reasoning",
+      "subdomain": "capacity-testing",
+      "task_type": "testing",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-software-retry-partial-success-000168",
+      "domain": "software-engineering",
+      "subdomain": "distributed-api",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-distributed-snapshot-install-000169",
+      "domain": "distributed-systems",
+      "subdomain": "replicated-log",
+      "task_type": "architecture-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-compute-padding-waste-000170",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "batching",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "batch": "010",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-api-compatibility-000091",
+      "domain": "software-engineering",
+      "subdomain": "api-evolution",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-software-queue-backpressure-000092",
+      "domain": "software-engineering",
+      "subdomain": "backpressure",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-snprintf-boundary-000093",
+      "domain": "systems-programming",
+      "subdomain": "string-formatting",
+      "task_type": "code-repair",
+      "difficulty": "intermediate",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-os-condition-predicate-000094",
+      "domain": "operating-systems",
+      "subdomain": "synchronization",
+      "task_type": "debugging",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-release-acquire-000095",
+      "domain": "computer-architecture",
+      "subdomain": "memory-ordering",
+      "task_type": "architecture-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-cgroup-cpu-throttle-000096",
+      "domain": "linux-infrastructure",
+      "subdomain": "cgroup-cpu",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-security-secret-compare-000097",
+      "domain": "secure-engineering",
+      "subdomain": "constant-time-comparison",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-reasoning-benchmark-warmup-000098",
+      "domain": "engineering-reasoning",
+      "subdomain": "benchmark-methodology",
+      "task_type": "performance-analysis",
+      "difficulty": "intermediate",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-thermal-throttle-000099",
+      "domain": "engineering-reasoning",
+      "subdomain": "performance-diagnosis",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-embedded-pwm-scaling-000100",
+      "domain": "embedded-systems",
+      "subdomain": "pwm",
+      "task_type": "implementation",
+      "difficulty": "basic",
+      "verification": "unit-test"
+    }
+  ]
+}

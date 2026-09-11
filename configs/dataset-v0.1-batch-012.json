@@ -1,0 +1,86 @@
+{
+  "batch": "012",
+  "dataset_version": "0.1",
+  "records": [
+    {
+      "id": "ce-software-optimistic-lock-000111",
+      "domain": "software-engineering",
+      "subdomain": "optimistic-concurrency",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "unit-test"
+    },
+    {
+      "id": "ce-software-atleast-once-job-000112",
+      "domain": "software-engineering",
+      "subdomain": "job-processing",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-buffer-ownership-000113",
+      "domain": "systems-programming",
+      "subdomain": "memory-ownership",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-os-dirty-writeback-000114",
+      "domain": "operating-systems",
+      "subdomain": "page-cache-writeback",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-icache-bloat-000115",
+      "domain": "computer-architecture",
+      "subdomain": "instruction-cache",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-cpu-affinity-000116",
+      "domain": "linux-infrastructure",
+      "subdomain": "cpu-affinity",
+      "task_type": "troubleshooting",
+      "difficulty": "intermediate",
+      "verification": "execute"
+    },
+    {
+      "id": "ce-distributed-monotonic-read-000117",
+      "domain": "distributed-systems",
+      "subdomain": "session-consistency",
+      "task_type": "technical-decision",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-compute-continuous-batching-000118",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "continuous-batching",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-capacity-headroom-000119",
+      "domain": "engineering-reasoning",
+      "subdomain": "capacity-planning",
+      "task_type": "technical-decision",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-optimization-validation-000120",
+      "domain": "engineering-reasoning",
+      "subdomain": "experimental-design",
+      "task_type": "testing",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    }
+  ]
+}

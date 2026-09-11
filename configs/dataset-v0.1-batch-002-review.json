@@ -1,0 +1,40 @@
+{
+  "batch": "002",
+  "dataset_version": "0.1",
+  "records": 10,
+  "status": "reviewed",
+  "result": "pass",
+  "range": {
+    "first": "ce-security-authorization-debug-000011",
+    "last": "ce-compute-batching-latency-000020"
+  },
+  "findings": {
+    "unique_ids": true,
+    "plan_alignment": true,
+    "all_verified": true,
+    "exact_prompt_duplicates": 0,
+    "exact_answer_duplicates": 0,
+    "unique_domains": 10
+  },
+  "difficulty": {
+    "advanced": 5,
+    "basic": 2,
+    "expert": 2,
+    "intermediate": 1
+  },
+  "verification": {
+    "execute": 2,
+    "multiple": 1,
+    "reference-answer": 1,
+    "rubric": 3,
+    "unit-test": 3
+  },
+  "task_types": {
+    "code-repair": 2,
+    "debugging": 2,
+    "design": 1,
+    "failure-analysis": 1,
+    "performance-analysis": 2,
+    "troubleshooting": 2
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ce-security-authorization-debug-000011",
+    "domain": "secure-engineering",
+    "subdomain": "authorization",
+    "task_type": "debugging",
+    "difficulty": "advanced",
+    "verification": "unit-test",
+    "objective": "Repair an authorization check that trusts user-controlled ownership data."
+  },
+  {
+    "id": "ce-software-input-validation-000012",
+    "domain": "software-engineering",
+    "subdomain": "input-validation",
+    "task_type": "code-repair",
+    "difficulty": "basic",
+    "verification": "unit-test",
+    "objective": "Add correct boundary validation to a small application function."
+  },
+  {
+    "id": "ce-networking-dns-debug-000013",
+    "domain": "networking",
+    "subdomain": "dns",
+    "task_type": "troubleshooting",
+    "difficulty": "intermediate",
+    "verification": "reference-answer",
+    "objective": "Diagnose a DNS resolution failure without confusing it with IP reachability."
+  },
+  {
+    "id": "ce-os-fd-exhaustion-000014",
+    "domain": "operating-systems",
+    "subdomain": "file-descriptors",
+    "task_type": "failure-analysis",
+    "difficulty": "advanced",
+    "verification": "execute",
+    "objective": "Diagnose file-descriptor exhaustion and distinguish symptoms from root cause."
+  },
+  {
+    "id": "ce-systems-integer-overflow-000015",
+    "domain": "systems-programming",
+    "subdomain": "integer-overflow",
+    "task_type": "debugging",
+    "difficulty": "expert",
+    "verification": "multiple",
+    "objective": "Repair an integer-overflow bug affecting allocation size calculations."
+  },
+  {
+    "id": "ce-embedded-timer-rollover-000016",
+    "domain": "embedded-systems",
+    "subdomain": "timers",
+    "task_type": "code-repair",
+    "difficulty": "advanced",
+    "verification": "unit-test",
+    "objective": "Handle unsigned timer rollover correctly in elapsed-time calculations."
+  },
+  {
+    "id": "ce-distributed-idempotency-000017",
+    "domain": "distributed-systems",
+    "subdomain": "idempotency",
+    "task_type": "design",
+    "difficulty": "expert",
+    "verification": "rubric",
+    "objective": "Design duplicate-safe request processing under retries and ambiguous failures."
+  },
+  {
+    "id": "ce-architecture-numa-analysis-000018",
+    "domain": "computer-architecture",
+    "subdomain": "numa",
+    "task_type": "performance-analysis",
+    "difficulty": "advanced",
+    "verification": "rubric",
+    "objective": "Diagnose remote-memory access caused by poor NUMA placement."
+  },
+  {
+    "id": "ce-linux-permission-debug-000019",
+    "domain": "linux-infrastructure",
+    "subdomain": "permissions",
+    "task_type": "troubleshooting",
+    "difficulty": "basic",
+    "verification": "execute",
+    "objective": "Diagnose a simple ownership and permission failure on Linux."
+  },
+  {
+    "id": "ce-compute-batching-latency-000020",
+    "domain": "compute-model-infrastructure",
+    "subdomain": "batching",
+    "task_type": "performance-analysis",
+    "difficulty": "advanced",
+    "verification": "rubric",
+    "objective": "Reason about throughput versus latency when changing inference batch size."
+  }
+]

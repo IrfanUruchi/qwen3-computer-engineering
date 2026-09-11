@@ -1,0 +1,39 @@
+{
+  "batch": "018",
+  "dataset_version": "0.1",
+  "records": 10,
+  "status": "reviewed",
+  "result": "pass",
+  "range": {
+    "first": "ce-software-pagination-snapshot-000171",
+    "last": "ce-systems-frame-length-000180"
+  },
+  "findings": {
+    "unique_ids": true,
+    "plan_alignment": true,
+    "all_verified": true,
+    "exact_prompt_duplicates": 0,
+    "exact_answer_duplicates": 0,
+    "unique_domains": 8
+  },
+  "difficulty": {
+    "advanced": 7,
+    "basic": 1,
+    "intermediate": 2
+  },
+  "verification": {
+    "execute": 2,
+    "reference-answer": 1,
+    "rubric": 4,
+    "unit-test": 3
+  },
+  "task_types": {
+    "configuration": 1,
+    "design": 1,
+    "implementation": 3,
+    "performance-analysis": 1,
+    "technical-decision": 1,
+    "testing": 1,
+    "troubleshooting": 2
+  }
+}

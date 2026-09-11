@@ -1,0 +1,16 @@
+{
+  "batch": "003",
+  "dataset_version": "0.1",
+  "records": [
+    {"id":"ce-software-api-contract-000021","domain":"software-engineering","subdomain":"api-contracts","task_type":"architecture-analysis","difficulty":"intermediate","verification":"rubric"},
+    {"id":"ce-systems-binary-parser-000022","domain":"systems-programming","subdomain":"binary-parsing","task_type":"implementation","difficulty":"advanced","verification":"unit-test"},
+    {"id":"ce-os-lock-contention-000023","domain":"operating-systems","subdomain":"synchronization","task_type":"performance-analysis","difficulty":"advanced","verification":"rubric"},
+    {"id":"ce-architecture-branch-predict-000024","domain":"computer-architecture","subdomain":"branch-prediction","task_type":"performance-analysis","difficulty":"intermediate","verification":"rubric"},
+    {"id":"ce-embedded-ring-buffer-000025","domain":"embedded-systems","subdomain":"ring-buffer","task_type":"implementation","difficulty":"advanced","verification":"unit-test"},
+    {"id":"ce-networking-mtu-debug-000026","domain":"networking","subdomain":"mtu-pmtud","task_type":"troubleshooting","difficulty":"advanced","verification":"reference-answer"},
+    {"id":"ce-distributed-quorum-design-000027","domain":"distributed-systems","subdomain":"quorum-consistency","task_type":"architecture-analysis","difficulty":"expert","verification":"rubric"},
+    {"id":"ce-linux-log-rotation-000028","domain":"linux-infrastructure","subdomain":"log-rotation","task_type":"configuration","difficulty":"basic","verification":"execute"},
+    {"id":"ce-compute-kv-cache-sizing-000029","domain":"compute-model-infrastructure","subdomain":"kv-cache","task_type":"performance-analysis","difficulty":"advanced","verification":"execute"},
+    {"id":"ce-security-path-traversal-000030","domain":"secure-engineering","subdomain":"path-traversal","task_type":"code-repair","difficulty":"expert","verification":"unit-test"}
+  ]
+}
