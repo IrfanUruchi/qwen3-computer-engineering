@@ -1,0 +1,41 @@
+{
+  "protocol_version": "0.1",
+  "status": "validation-calibration",
+
+  "model_family": "Qwen3",
+
+  "chat_template": {
+    "use_model_chat_template": true,
+    "enable_thinking": true,
+    "extra_system_prompt": null,
+    "preserve_dataset_prompt": true
+  },
+
+  "sampling": {
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0
+  },
+
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+
+  "generation_limits": {
+    "max_new_tokens": 4096
+  },
+
+  "evaluation_rules": {
+    "develop_harness_on_validation_only": true,
+    "private_evaluation_used_for_tuning": false,
+    "same_generation_policy_for_baseline_and_finetune": true,
+    "record_truncation_rate": true,
+    "record_tokens_per_second": true,
+    "record_per_record_latency": true,
+    "freeze_policy_before_private_evaluation": true
+  }
+}
