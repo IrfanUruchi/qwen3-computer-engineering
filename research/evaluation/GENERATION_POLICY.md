@@ -59,9 +59,11 @@ model.
 
 Every generation run should preserve:
 
-- model revision
+- model repository and exact revision
+- code Git commit
 - dataset split and SHA-256
-- seed
+- random seed
+- generation configuration
 - input token count
 - generated token count
 - elapsed generation time
@@ -69,3 +71,11 @@ Every generation run should preserve:
 - truncation status
 - raw model response
 - extracted final response where applicable
+
+## Reproducibility
+
+The baseline and fine-tuned model must use the same frozen generation
+policy for final comparison.
+
+Any calibration change made during validation must be documented and
+committed before private evaluation begins.
