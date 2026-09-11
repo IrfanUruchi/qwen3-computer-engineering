@@ -1,0 +1,77 @@
+{
+  "experiment_id": "EXP-XXX",
+  "run_id": "replace-me",
+  "purpose": "",
+  "status": "planned",
+
+  "code": {
+    "git_commit": "",
+    "dirty_worktree": null
+  },
+
+  "model": {
+    "name": "",
+    "provider_or_repo": "",
+    "revision": "",
+    "checkpoint": "",
+    "parameter_count": null
+  },
+
+  "dataset": {
+    "version": "0.1",
+    "train_sha256": "baeb4c721f59aa725869d659bb14b2d858962eb64e12696b9c17c13e6001c406",
+    "validation_sha256": "d5f05d3dfd6f72990314e3410f06c96a7fc2e733fb11078416e126934c85078a",
+    "evaluation_sha256": "c6b4a1de585c0d39646c3334d5dffd3a735b693569c4db15c9a8ddd150e55523"
+  },
+
+  "reproducibility": {
+    "seed": null,
+    "python_version": "",
+    "framework": "",
+    "framework_version": ""
+  },
+
+  "hardware": {
+    "system": "",
+    "cpu": "",
+    "ram": "",
+    "accelerator": "",
+    "accelerator_memory": ""
+  },
+
+  "generation": {
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "max_new_tokens": null
+  },
+
+  "training": {
+    "method": null,
+    "epochs": null,
+    "learning_rate": null,
+    "batch_size": null,
+    "gradient_accumulation": null,
+    "lora_rank": null,
+    "lora_alpha": null,
+    "lora_dropout": null
+  },
+
+  "checkpoint_selection": {
+    "criterion": "",
+    "validation_only": true
+  },
+
+  "results": {
+    "validation": null,
+    "evaluation": null
+  },
+
+  "timing": {
+    "started_at": "",
+    "finished_at": "",
+    "duration_seconds": null
+  },
+
+  "notes": []
+}
