@@ -336,6 +336,14 @@ def main() -> int:
         action="store_true",
     )
     parser.add_argument(
+        "--resume",
+        action="store_true",
+        help=(
+            "Resume an interrupted run from an existing JSONL artifact. "
+            "Previously completed record IDs are preserved and skipped."
+        ),
+    )
+    parser.add_argument(
         "--allow-dirty",
         action="store_true",
     )
@@ -428,12 +436,59 @@ def main() -> int:
     responses_path = artifacts_dir / f"{stem}.jsonl"
     metadata_path = artifacts_dir / f"{stem}.generation.json"
 
-    if not args.overwrite:
+    if args.overwrite and args.resume:
+        raise RuntimeError(
+            "--overwrite and --resume cannot be used together"
+        )
+
+    completed_ids: set[str] = set()
+
+    if args.resume and responses_path.exists():
+        with responses_path.open("r", encoding="utf-8") as existing:
+            for line_no, line in enumerate(existing, start=1):
+                line = line.strip()
+
+                if not line:
+                    continue
+
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    raise RuntimeError(
+                        f"Cannot resume: malformed artifact line "
+                        f"{line_no}: {exc}"
+                    ) from exc
+
+                record_id = row.get("record_id")
+
+                if not record_id:
+                    raise RuntimeError(
+                        f"Cannot resume: line {line_no} has no record_id"
+                    )
+
+                completed_ids.add(record_id)
+
+        print(
+            f"Resume: found {len(completed_ids)} completed records"
+        )
+
+    elif not args.overwrite:
         for path in (responses_path, metadata_path):
             if path.exists():
                 raise RuntimeError(
                     f"Refusing to overwrite existing artifact: {path}"
                 )
+
+    if completed_ids:
+        rows = [
+            row
+            for row in rows
+            if row["id"] not in completed_ids
+        ]
+
+        print(
+            f"Resume: {len(rows)} records remain"
+        )
 
     chat_policy = policy["chat_template"]
     sampling = policy["sampling"]
@@ -503,8 +558,16 @@ def main() -> int:
 
     started_at = time.time()
 
+    output_mode = (
+        "a"
+        if args.resume and responses_path.exists()
+        else "w"
+        if args.overwrite
+        else "x"
+    )
+
     with responses_path.open(
-        "x" if not args.overwrite else "w",
+        output_mode,
         encoding="utf-8",
     ) as out:
         for index, record in enumerate(rows, start=1):
