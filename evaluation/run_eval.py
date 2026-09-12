@@ -155,21 +155,40 @@ def derive_record_seed(run_seed: int, record_id: str) -> int:
     return int.from_bytes(digest[:4], "big") & 0x7FFFFFFF
 
 
-def extract_thinking(text: str) -> tuple[str | None, str]:
+def extract_thinking(
+    text: str,
+) -> tuple[str | None, str, bool | None]:
     cleaned = text.strip()
 
-    if "</think>" not in cleaned:
-        return None, cleaned
+    open_tag = "<think>"
+    close_tag = "</think>"
 
-    thinking, final = cleaned.rsplit("</think>", 1)
+    open_pos = cleaned.find(open_tag)
+    close_pos = cleaned.rfind(close_tag)
 
-    if "<think>" in thinking:
-        thinking = thinking.split("<think>", 1)[1]
+    # Complete Qwen3 thinking block.
+    if close_pos != -1:
+        if open_pos != -1 and open_pos < close_pos:
+            start = open_pos + len(open_tag)
+        else:
+            start = 0
 
-    thinking = thinking.strip()
-    final = final.strip()
+        reasoning = cleaned[start:close_pos].strip()
+        final = cleaned[close_pos + len(close_tag):].strip()
 
-    return thinking or None, final
+        return reasoning or None, final, True
+
+    # Generation ended while still inside <think>.
+    # Never misclassify unfinished reasoning as a final answer.
+    if open_pos != -1:
+        reasoning = cleaned[
+            open_pos + len(open_tag):
+        ].strip()
+
+        return reasoning or None, "", False
+
+    # Non-thinking output.
+    return None, cleaned, None
 
 
 def load_ml():
@@ -598,9 +617,11 @@ def main() -> int:
                 skip_special_tokens=True,
             ).strip()
 
-            reasoning, final_answer = extract_thinking(
-                response
-            )
+            (
+                reasoning,
+                final_answer,
+                reasoning_complete,
+            ) = extract_thinking(response)
 
             eos = model.generation_config.eos_token_id
 
@@ -713,6 +734,7 @@ def main() -> int:
                     "raw_response": raw_response,
                     "response": response,
                     "reasoning": reasoning,
+                    "reasoning_complete": reasoning_complete,
                     "final_answer": final_answer,
                 },
             }
