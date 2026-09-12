@@ -35,3 +35,36 @@ The response parser is also hardened so an unfinished thinking block
 cannot be misclassified as a final answer.
 
 The original smoke artifacts are retained as calibration evidence.
+
+## CAL-002 — 8192-token follow-up
+
+Configuration:
+
+- model: Qwen/Qwen3-1.7B
+- thinking mode: enabled
+- seed: 17
+- records: same first 2 validation records
+- max_new_tokens: 8192
+
+Observed:
+
+- record 000201 again terminated normally at 2609 generated tokens
+- record 000202 again reached the generation limit
+- record 000202 never emitted a closing `</think>` tag
+- no final answer was produced
+- unfinished reasoning length: 34,312 characters
+- duplicate 8-gram rate: 24.78%
+- manual tail inspection showed repeated reformulation of the same
+  overflow/parsing reasoning rather than clear forward progress
+
+Decision:
+
+Do not increase the benchmark output budget solely to accommodate this
+record.
+
+Record 000202 is treated as a candidate pathological-reasoning /
+non-answer failure rather than evidence that 8192 tokens is inherently
+insufficient.
+
+The 8192-token limit remains the candidate calibration ceiling pending
+a wider validation sample.
