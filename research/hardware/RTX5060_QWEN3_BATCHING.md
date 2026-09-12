@@ -92,3 +92,44 @@ higher short-context throughput.
 
 The final evaluation batch size must still be validated at the frozen
 8192-token generation ceiling before adoption.
+
+## 8192-token long-context stress test
+
+The final evaluation candidate ceiling of 8192 generated tokens was
+used to test long-context batching.
+
+### Batch size 2
+
+- aggregate throughput: 38.42 tok/s
+- per-sequence throughput: 19.21 tok/s
+- peak CUDA allocated memory: 5.13 GiB
+- peak CUDA reserved memory: 6.59 GiB
+- status: PASS
+
+The batch completed normally.
+
+### Batch size 4
+
+The batch-size-4 run did not complete after more than one hour and was
+manually terminated.
+
+For comparison, a healthy batch-size-2 run completed the same
+8192-token-per-sequence stress test in approximately seven minutes.
+
+The extreme slowdown at batch size 4 is consistent with the memory
+pressure observed in the 4096-token sweep becoming substantially worse
+at 8192 tokens.
+
+### Long-context conclusion
+
+Batch-size optimum is strongly sequence-length dependent:
+
+- 1024 tokens: batch 8 produced the highest tested throughput
+- 4096 tokens: batch 4 produced the highest tested throughput
+- 8192 tokens: batch 2 remained stable while batch 4 became impractical
+
+This demonstrates a clear throughput/memory operating-point shift as
+KV-cache requirements increase.
+
+Batch size 2 is currently the safe candidate for the final 8192-token
+evaluation workload.
