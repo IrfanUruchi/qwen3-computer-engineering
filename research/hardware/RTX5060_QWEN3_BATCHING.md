@@ -133,3 +133,37 @@ KV-cache requirements increase.
 
 Batch size 2 is currently the safe candidate for the final 8192-token
 evaluation workload.
+
+### Batch size 3 at 8192 tokens
+
+A separate batch-size-3 stress test was executed with a hard
+20-minute timeout.
+
+The run did not complete within 20 minutes and was interrupted while
+executing a Qwen3 decoder-layer forward pass.
+
+Status:
+
+- batch size: 3
+- generated-token target per sequence: 8192
+- completion: NO
+- timeout: 20 minutes
+- process exit code: 124
+
+Together with the batch-size-4 run, which remained incomplete after
+more than one hour, this establishes a sharp long-context operating
+boundary on the tested RTX 5060 system.
+
+### Final long-context batching conclusion
+
+At the 8192-token evaluation ceiling:
+
+- batch 2: practical and stable
+- batch 3: impractical (>20-minute timeout)
+- batch 4: impractical (>60 minutes)
+
+Batch size 2 is therefore the selected practical long-context batch
+size for further evaluation-engineering work on this system.
+
+This result also demonstrates that the throughput-optimal batch size
+decreases substantially as generated sequence length increases.
