@@ -290,6 +290,15 @@ def main() -> int:
         default=DEFAULT_RUN_DIR,
     )
     parser.add_argument(
+        "--model-path",
+        type=Path,
+        default=None,
+        help=(
+            "Optional verified local model snapshot. "
+            "When supplied, network access is not used for model loading."
+        ),
+    )
+    parser.add_argument(
         "--seed",
         type=int,
         default=17,
@@ -374,6 +383,24 @@ def main() -> int:
             "Model repository/revision is not pinned in run-manifest.json"
         )
 
+    model_path = (
+        args.model_path.expanduser().resolve()
+        if args.model_path is not None
+        else None
+    )
+
+    if model_path is not None:
+        if not model_path.is_dir():
+            raise RuntimeError(
+                f"Local model path does not exist: {model_path}"
+            )
+
+        model_source = str(model_path)
+        model_source_type = "verified-local-snapshot"
+    else:
+        model_source = model_repo
+        model_source_type = "huggingface-hub"
+
     artifacts_dir = run_dir / "artifacts"
     artifacts_dir.mkdir(parents=True, exist_ok=True)
 
@@ -401,6 +428,7 @@ def main() -> int:
     print("=" * 72)
     print(f"Model:          {model_repo}")
     print(f"Revision:       {model_revision}")
+    print(f"Load source:    {model_source_type}")
     print(f"Records:        {len(rows)}")
     print(f"Run seed:       {args.seed}")
     print(f"Thinking:       {enable_thinking}")
@@ -410,20 +438,33 @@ def main() -> int:
 
     print("Loading tokenizer...")
 
+    tokenizer_kwargs: dict[str, Any] = {
+        "trust_remote_code": False,
+    }
+
+    model_kwargs: dict[str, Any] = {
+        "torch_dtype": "auto",
+        "device_map": "auto",
+        "trust_remote_code": False,
+    }
+
+    if model_path is not None:
+        tokenizer_kwargs["local_files_only"] = True
+        model_kwargs["local_files_only"] = True
+    else:
+        tokenizer_kwargs["revision"] = model_revision
+        model_kwargs["revision"] = model_revision
+
     tokenizer = AutoTokenizer.from_pretrained(
-        model_repo,
-        revision=model_revision,
-        trust_remote_code=False,
+        model_source,
+        **tokenizer_kwargs,
     )
 
     print("Loading model...")
 
     model = AutoModelForCausalLM.from_pretrained(
-        model_repo,
-        revision=model_revision,
-        torch_dtype="auto",
-        device_map="auto",
-        trust_remote_code=False,
+        model_source,
+        **model_kwargs,
     )
 
     model.eval()
@@ -627,6 +668,7 @@ def main() -> int:
                 "model": {
                     "repo": model_repo,
                     "revision": model_revision,
+                    "load_source_type": model_source_type,
                 },
 
                 "code": {
@@ -717,6 +759,7 @@ def main() -> int:
         "model": {
             "repo": model_repo,
             "revision": model_revision,
+            "load_source_type": model_source_type,
         },
         "code": {
             "git_commit": git_sha,
