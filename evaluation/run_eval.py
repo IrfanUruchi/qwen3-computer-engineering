@@ -727,6 +727,7 @@ def main() -> int:
                     "output_tokens_per_second": throughput,
                     "finish_reason": finish_reason,
                     "truncated": truncated,
+                    "completed_final_answer": bool(final_answer),
                     "peak_cuda_memory_bytes": peak_cuda_bytes,
                 },
 
