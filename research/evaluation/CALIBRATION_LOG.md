@@ -68,3 +68,50 @@ insufficient.
 
 The 8192-token limit remains the candidate calibration ceiling pending
 a wider validation sample.
+
+## CAL-003 — Wider 10-record validation calibration
+
+Configuration:
+
+- model: Qwen/Qwen3-1.7B
+- thinking mode: enabled
+- seed: 17
+- records: first 10 validation records
+- max_new_tokens: 8192
+
+Observed:
+
+- 8/10 records terminated normally with EOS
+- 2/10 records reached the 8192-token generation limit
+- both truncated records failed to emit a closing `</think>` tag
+- neither truncated record produced a final answer
+
+Truncated records:
+
+### ce-systems-strtol-validation-000202
+
+- duplicate 8-gram rate: 24.78%
+- reasoning showed repeated reformulation of the same parsing and
+  overflow-detection approach
+- no completed final answer
+
+### ce-reasoning-littles-law-000206
+
+- duplicate 8-gram rate: 34.32%
+- reasoning repeatedly recalculated and reconsidered the same
+  Little's Law relationship
+- the reasoning reached the value 20 but continued looping over units
+  and alternative formulations
+- no completed final answer
+
+Decision:
+
+The observed 8192-token failures are classified as pathological
+reasoning / non-answer behavior rather than evidence that the output
+budget is too small.
+
+Do not increase the generation budget solely to accommodate these
+failures.
+
+8192 remains the candidate final generation ceiling pending the full
+40-record validation calibration.
