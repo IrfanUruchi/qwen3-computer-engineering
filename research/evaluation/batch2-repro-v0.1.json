@@ -1,0 +1,36 @@
+{
+  "model": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "environment": "EXP-001 Eagle frozen environment",
+  "batch_size": 2,
+  "seed": 17,
+  "max_new_tokens": 2048,
+  "sampling": {
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.95,
+    "top_k": 20
+  },
+  "run_a": {
+    "elapsed_seconds": 84.90,
+    "aggregate_tokens_per_second": 48.25,
+    "peak_cuda_allocated_gib": 3.72,
+    "batch_token_sha256": "9c207065c840046e696f19e36f98c9fbef0db6ac40de65f0668d7d3624512bbd",
+    "record_token_sha256": {
+      "ce-software-pagination-delete-000201": "fa5ec8e46b90488e0c9b47d039d0aaba55ddecff4f4c35023072e859500f5ce6",
+      "ce-os-thread-stack-overflow-000203": "07f44e00b7b4f12a55eae9cea57cdbb2e2d03b2cddbb06d145c33fa2c8acdddc"
+    }
+  },
+  "run_b": {
+    "elapsed_seconds": 80.69,
+    "aggregate_tokens_per_second": 50.76,
+    "peak_cuda_allocated_gib": 3.72,
+    "batch_token_sha256": "9c207065c840046e696f19e36f98c9fbef0db6ac40de65f0668d7d3624512bbd",
+    "record_token_sha256": {
+      "ce-software-pagination-delete-000201": "fa5ec8e46b90488e0c9b47d039d0aaba55ddecff4f4c35023072e859500f5ce6",
+      "ce-os-thread-stack-overflow-000203": "07f44e00b7b4f12a55eae9cea57cdbb2e2d03b2cddbb06d145c33fa2c8acdddc"
+    }
+  },
+  "exact_generated_token_match": true,
+  "scope": "Repeatability established for the pinned Eagle hardware/software environment only."
+}
