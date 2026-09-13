@@ -31,5 +31,16 @@
     "record_tokens_per_second": true,
     "record_per_record_latency": true,
     "freeze_policy_before_private_evaluation": true
+  },
+  "batching": {
+    "status": "validation-calibration",
+    "batch_size": 2,
+    "record_order": "dataset-order",
+    "seed_scope": "batch",
+    "seed_derivation": "sha256(run_seed:ordered_record_ids), first 32 bits masked to 31 bits",
+    "resume_boundary": "completed-batch",
+    "left_padding": true,
+    "eos_aware_per_record_accounting": true,
+    "same_batching_for_compared_models": true
   }
 }
