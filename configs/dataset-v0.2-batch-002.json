@@ -1,0 +1,88 @@
+{
+  "batch": "002",
+  "dataset_version": "0.2",
+  "stage": "v0.2-A",
+  "split": "train",
+  "records": [
+    {
+      "id": "ce-software-aba-lockfree-stack-000311",
+      "domain": "software-engineering",
+      "subdomain": "lock-free-concurrency",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-scm-rights-leak-000312",
+      "domain": "systems-programming",
+      "subdomain": "unix-domain-sockets",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-os-tlb-shootdown-000313",
+      "domain": "operating-systems",
+      "subdomain": "virtual-memory",
+      "task_type": "performance-analysis",
+      "difficulty": "expert",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-numa-first-touch-000314",
+      "domain": "computer-architecture",
+      "subdomain": "numa",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-linux-io-uring-buffer-lifetime-000315",
+      "domain": "linux-infrastructure",
+      "subdomain": "io-uring",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-embedded-volatile-isr-shared-state-000316",
+      "domain": "embedded-systems",
+      "subdomain": "interrupt-concurrency",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-networking-pmtud-blackhole-000317",
+      "domain": "networking",
+      "subdomain": "path-mtu-discovery",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-distributed-fencing-token-000318",
+      "domain": "distributed-systems",
+      "subdomain": "leases-and-locks",
+      "task_type": "architecture-analysis",
+      "difficulty": "expert",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-compute-nccl-topology-000319",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "multi-gpu-communication",
+      "task_type": "performance-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-bottleneck-throughput-000320",
+      "domain": "engineering-reasoning",
+      "subdomain": "pipeline-throughput",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    }
+  ]
+}

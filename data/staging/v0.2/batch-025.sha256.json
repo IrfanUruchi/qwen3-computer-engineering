@@ -1,0 +1,45 @@
+{
+  "batch": "025",
+  "purpose": "performance-analysis",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-performance-analysis-000471",
+    "ce-performance-analysis-000472",
+    "ce-performance-analysis-000473",
+    "ce-performance-analysis-000474",
+    "ce-performance-analysis-000475",
+    "ce-performance-analysis-000476",
+    "ce-performance-analysis-000477",
+    "ce-performance-analysis-000478",
+    "ce-performance-analysis-000479",
+    "ce-performance-analysis-000480"
+  ],
+  "generator_seed": 20261084,
+  "family_ids": [
+    "perf-fanout-tail",
+    "perf-readahead-random",
+    "perf-nagle-delayed-ack",
+    "perf-branch-mispredict",
+    "perf-pinned-transfer",
+    "perf-writev-batching",
+    "perf-runqueue-oversubscription",
+    "perf-cache-conflict",
+    "perf-regex-backtracking",
+    "perf-kernel-launch-overhead"
+  ],
+  "concept_ids": [
+    "fanout-tail-latency-amplification",
+    "readahead-random-io-mismatch",
+    "nagle-delayed-ack-small-rpc",
+    "branch-mispredict-hot-loop",
+    "pinned-memory-h2d-transfer",
+    "writev-syscall-batching",
+    "cpu-runqueue-oversubscription",
+    "cache-set-conflict-thrashing",
+    "regex-catastrophic-backtracking",
+    "gpu-kernel-launch-overhead"
+  ],
+  "all_used_family_count": 10,
+  "data_sha256": "a2c641b8e9d9b00d70959ae2e18b2438f18df29b859d4ce24000ad85f3b5f677"
+}

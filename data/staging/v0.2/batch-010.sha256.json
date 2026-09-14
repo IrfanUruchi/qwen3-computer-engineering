@@ -1,0 +1,19 @@
+{
+  "batch": "010",
+  "purpose": "debugging",
+  "records": 5,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "dbg-cgroup-cpu-throttle",
+    "dbg-db-pool-starvation",
+    "dbg-dma-stale-buffer",
+    "dbg-dns-negative-cache",
+    "dbg-epoll-et-starvation",
+    "dbg-gpu-sync-timeline",
+    "dbg-numa-remote-memory",
+    "dbg-priority-inversion",
+    "dbg-replica-read-staleness",
+    "dbg-tls-clock-failure"
+  ],
+  "data_sha256": "d28b5e763a2007d5140b28d6f2efb7b58ac62cdba98c536f4927c4ced6ef867e"
+}

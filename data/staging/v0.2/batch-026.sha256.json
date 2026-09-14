@@ -1,0 +1,45 @@
+{
+  "batch": "026",
+  "purpose": "configuration",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-configuration-000481",
+    "ce-configuration-000482",
+    "ce-configuration-000483",
+    "ce-configuration-000484",
+    "ce-configuration-000485",
+    "ce-configuration-000486",
+    "ce-configuration-000487",
+    "ce-configuration-000488",
+    "ce-configuration-000489",
+    "ce-configuration-000490"
+  ],
+  "generator_seed": 20261094,
+  "family_ids": [
+    "config-election-timeout",
+    "config-journald-rate-limit",
+    "config-tcp-keepalive",
+    "config-watchdog-boot-time",
+    "config-nofile-headroom",
+    "config-feature-kill-switch",
+    "config-tls-min-version",
+    "config-core-dump-limit",
+    "config-thp-policy",
+    "config-worker-pool"
+  ],
+  "concept_ids": [
+    "distributed-election-timeout-range",
+    "journald-rate-limit-config",
+    "tcp-keepalive-failure-detection-config",
+    "embedded-watchdog-boot-timeout-config",
+    "service-nofile-headroom-config",
+    "feature-kill-switch-config",
+    "tls-minimum-version-policy",
+    "core-dump-size-limit-config",
+    "transparent-hugepage-policy-config",
+    "cpu-worker-pool-sizing-config"
+  ],
+  "all_used_family_count": 10,
+  "data_sha256": "8408d4d146b8857102c93257c55f162dbc6718ab0d6abab07bee6e22ea5c6239"
+}

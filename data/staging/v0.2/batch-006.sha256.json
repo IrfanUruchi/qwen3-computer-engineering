@@ -1,0 +1,14 @@
+{
+  "batch": "006",
+  "purpose": "debugging",
+  "records": 5,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "dbg-db-pool-starvation",
+    "dbg-dns-negative-cache",
+    "dbg-epoll-et-starvation",
+    "dbg-numa-remote-memory",
+    "dbg-priority-inversion"
+  ],
+  "data_sha256": "ce5aec01890fb100836b7790d1c0cf3452594b7c83e4d10b4ea7a3444bf56726"
+}

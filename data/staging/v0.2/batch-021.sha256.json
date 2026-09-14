@@ -1,0 +1,45 @@
+{
+  "batch": "021",
+  "purpose": "testing",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-testing-000431",
+    "ce-testing-000432",
+    "ce-testing-000433",
+    "ce-testing-000434",
+    "ce-testing-000435",
+    "ce-testing-000436",
+    "ce-testing-000437",
+    "ce-testing-000438",
+    "ce-testing-000439",
+    "ce-testing-000440"
+  ],
+  "generator_seed": 20261044,
+  "family_ids": [
+    "test-cgroup-memory-max",
+    "test-grad-scaler",
+    "test-partition-linearizability",
+    "test-reorder-loss-duplicate",
+    "test-powercut-firmware",
+    "test-systemd-ordering",
+    "test-prefetch-ab",
+    "test-monotonic-timeout",
+    "test-short-write-injection",
+    "test-serialization-properties"
+  ],
+  "concept_ids": [
+    "cgroup-memory-max-oom-test",
+    "mixed-precision-grad-scaler-test",
+    "partition-leader-linearizability-test",
+    "network-reorder-loss-duplicate-test",
+    "powercut-firmware-update-recovery",
+    "systemd-dependency-order-test",
+    "software-prefetch-ab-benchmark",
+    "monotonic-timeout-clock-jump-test",
+    "short-write-fault-injection",
+    "serialization-property-tests"
+  ],
+  "all_used_family_count": 13,
+  "data_sha256": "21977ba161abeb9d362c2087bb71c380d449d1fa43c3e83211f76dbf38dcb4e0"
+}

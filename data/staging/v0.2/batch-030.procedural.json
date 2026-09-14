@@ -1,0 +1,617 @@
+{
+  "batch": "030",
+  "generator": "generate_dataset_v02.py",
+  "seed": 20260914,
+  "records": 50,
+  "record_ids": [
+    "ce-implementation-000601",
+    "ce-implementation-000602",
+    "ce-performance-analysis-000603",
+    "ce-code-repair-000604",
+    "ce-performance-analysis-000605",
+    "ce-configuration-000606",
+    "ce-performance-analysis-000607",
+    "ce-implementation-000608",
+    "ce-performance-analysis-000609",
+    "ce-performance-analysis-000610",
+    "ce-code-repair-000611",
+    "ce-performance-analysis-000612",
+    "ce-implementation-000613",
+    "ce-performance-analysis-000614",
+    "ce-code-repair-000615",
+    "ce-code-repair-000616",
+    "ce-performance-analysis-000617",
+    "ce-implementation-000618",
+    "ce-design-000619",
+    "ce-configuration-000620",
+    "ce-performance-analysis-000621",
+    "ce-implementation-000622",
+    "ce-performance-analysis-000623",
+    "ce-code-repair-000624",
+    "ce-implementation-000625",
+    "ce-performance-analysis-000626",
+    "ce-design-000627",
+    "ce-performance-analysis-000628",
+    "ce-performance-analysis-000629",
+    "ce-performance-analysis-000630",
+    "ce-implementation-000631",
+    "ce-failure-analysis-000632",
+    "ce-performance-analysis-000633",
+    "ce-implementation-000634",
+    "ce-performance-analysis-000635",
+    "ce-technical-decision-000636",
+    "ce-failure-analysis-000637",
+    "ce-code-repair-000638",
+    "ce-performance-analysis-000639",
+    "ce-technical-decision-000640",
+    "ce-code-repair-000641",
+    "ce-performance-analysis-000642",
+    "ce-troubleshooting-000643",
+    "ce-code-repair-000644",
+    "ce-technical-decision-000645",
+    "ce-troubleshooting-000646",
+    "ce-troubleshooting-000647",
+    "ce-technical-decision-000648",
+    "ce-implementation-000649",
+    "ce-technical-decision-000650"
+  ],
+  "lineage": [
+    {
+      "record_id": "ce-implementation-000601",
+      "family_id": "snapshot-install",
+      "topic": "snapshot-install",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "state machine",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000602",
+      "family_id": "debounce-state-machine",
+      "topic": "debounce-state-machine",
+      "variant_index": 10,
+      "difficulty": "intermediate",
+      "params": {
+        "ms": 30,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000603",
+      "family_id": "cpu-affinity-migration",
+      "topic": "cpu-affinity-migration",
+      "variant_index": 7,
+      "difficulty": "expert",
+      "params": {
+        "component": "database thread",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000604",
+      "family_id": "sendfile-partial",
+      "topic": "sendfile-partial-transfer",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "mb": 4,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000605",
+      "family_id": "tlb-reach-pagesize",
+      "topic": "tlb-reach-pagesize",
+      "variant_index": 10,
+      "difficulty": "advanced",
+      "params": {
+        "mb": 4096,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-configuration-000606",
+      "family_id": "systemd-startlimit",
+      "topic": "systemd-startlimit",
+      "variant_index": 11,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "proxy",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000607",
+      "family_id": "amdahl-speedup",
+      "topic": "amdahl-speedup",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "serial": 10,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000608",
+      "family_id": "otmpfile-publish",
+      "topic": "otmpfile-publish",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "service": "index builder",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000609",
+      "family_id": "ecn-congestion",
+      "topic": "ecn-congestion",
+      "variant_index": 11,
+      "difficulty": "advanced",
+      "params": {
+        "path": "cloud VPC",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000610",
+      "family_id": "consistent-hash-vnodes",
+      "topic": "consistent-hash-vnodes",
+      "variant_index": 4,
+      "difficulty": "expert",
+      "params": {
+        "nodes": 8,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000611",
+      "family_id": "clock-source-timeout",
+      "topic": "clock-source-timeout",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "component": "RPC",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000612",
+      "family_id": "hw-prefetch-stride",
+      "topic": "hardware-prefetch-stride",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "stride": 8,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000613",
+      "family_id": "debounce-state-machine",
+      "topic": "debounce-state-machine",
+      "variant_index": 2,
+      "difficulty": "intermediate",
+      "params": {
+        "ms": 5,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000614",
+      "family_id": "gradient-bucket-overlap",
+      "topic": "gradient-bucket-overlap",
+      "variant_index": 1,
+      "difficulty": "expert",
+      "params": {
+        "model": "transformer",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000615",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 11,
+      "difficulty": "advanced",
+      "params": {
+        "service": "media service",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000616",
+      "family_id": "epoll-oneshot-rearm",
+      "topic": "epoll-oneshot-rearm",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "component": "storage daemon",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000617",
+      "family_id": "io-scheduler-latency",
+      "topic": "io-scheduler-latency",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "device": "NVMe SSD",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-implementation-000618",
+      "family_id": "structured-concurrency-cancel",
+      "topic": "structured-concurrency-cancellation",
+      "variant_index": 6,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "billing service",
+        "children": 8,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-design-000619",
+      "family_id": "csrf-samesite",
+      "topic": "csrf-samesite",
+      "variant_index": 10,
+      "difficulty": "advanced",
+      "params": {
+        "app": "internal dashboard",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-configuration-000620",
+      "family_id": "systemd-startlimit",
+      "topic": "systemd-startlimit",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000621",
+      "family_id": "write-allocate-streaming",
+      "topic": "write-allocate-streaming",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "component": "checkpoint buffer",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-implementation-000622",
+      "family_id": "snapshot-install",
+      "topic": "snapshot-install",
+      "variant_index": 11,
+      "difficulty": "expert",
+      "params": {
+        "resource": "KV shard",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000623",
+      "family_id": "splice-pipe-backpressure",
+      "topic": "splice-pipe-backpressure",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "component": "backup pipeline",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000624",
+      "family_id": "clock-source-timeout",
+      "topic": "clock-source-timeout",
+      "variant_index": 8,
+      "difficulty": "intermediate",
+      "params": {
+        "component": "job",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-implementation-000625",
+      "family_id": "token-bucket-rate-limit",
+      "topic": "token-bucket-rate-limit",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "rate": 100,
+        "burst": 100,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000626",
+      "family_id": "ecn-congestion",
+      "topic": "ecn-congestion",
+      "variant_index": 1,
+      "difficulty": "expert",
+      "params": {
+        "path": "datacenter fabric",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000627",
+      "family_id": "flash-wear-log",
+      "topic": "flash-wear-log",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "seconds": 5,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000628",
+      "family_id": "amdahl-speedup",
+      "topic": "amdahl-speedup",
+      "variant_index": 2,
+      "difficulty": "intermediate",
+      "params": {
+        "serial": 5,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000629",
+      "family_id": "cpu-affinity-migration",
+      "topic": "cpu-affinity-migration",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "component": "packet worker",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000630",
+      "family_id": "gradient-bucket-overlap",
+      "topic": "gradient-bucket-overlap",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "model": "transformer",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-implementation-000631",
+      "family_id": "otmpfile-publish",
+      "topic": "otmpfile-publish",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "service": "index builder",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000632",
+      "family_id": "nonce-reuse-aead",
+      "topic": "aead-nonce-reuse",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "mode": "GCM-style AEAD",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000633",
+      "family_id": "tlb-reach-pagesize",
+      "topic": "tlb-reach-pagesize",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "mb": 64,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-implementation-000634",
+      "family_id": "structured-concurrency-cancel",
+      "topic": "structured-concurrency-cancellation",
+      "variant_index": 10,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "billing service",
+        "children": 64,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000635",
+      "family_id": "consistent-hash-vnodes",
+      "topic": "consistent-hash-vnodes",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "nodes": 4,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000636",
+      "family_id": "syn-cookie-tradeoff",
+      "topic": "syn-cookie-tradeoff",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "service": "SSH bastion",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000637",
+      "family_id": "adc-aliasing",
+      "topic": "adc-aliasing",
+      "variant_index": 4,
+      "difficulty": "intermediate",
+      "params": {
+        "fs": 16,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000638",
+      "family_id": "epoll-oneshot-rearm",
+      "topic": "epoll-oneshot-rearm",
+      "variant_index": 8,
+      "difficulty": "expert",
+      "params": {
+        "component": "storage daemon",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000639",
+      "family_id": "io-scheduler-latency",
+      "topic": "io-scheduler-latency",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "device": "virtual block device",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000640",
+      "family_id": "mlock-pagefault-budget",
+      "topic": "mlock-pagefault-budget",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "mb": 256,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000641",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "service": "search service",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000642",
+      "family_id": "hw-prefetch-stride",
+      "topic": "hardware-prefetch-stride",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "stride": 2,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000643",
+      "family_id": "straggler-step",
+      "topic": "distributed-training-straggler",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "ranks": 4,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000644",
+      "family_id": "sendfile-partial",
+      "topic": "sendfile-partial-transfer",
+      "variant_index": 2,
+      "difficulty": "intermediate",
+      "params": {
+        "mb": 4,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000645",
+      "family_id": "read-repair",
+      "topic": "read-repair",
+      "variant_index": 11,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "session",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000646",
+      "family_id": "tcp-autotune-window",
+      "topic": "tcp-autotune-window",
+      "variant_index": 7,
+      "difficulty": "expert",
+      "params": {
+        "rtt": 100,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000647",
+      "family_id": "i2c-clock-stretch",
+      "topic": "i2c-clock-stretch",
+      "variant_index": 7,
+      "difficulty": "intermediate",
+      "params": {
+        "sensor": "secure element",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000648",
+      "family_id": "secret-zeroization",
+      "topic": "secret-zeroization",
+      "variant_index": 10,
+      "difficulty": "advanced",
+      "params": {
+        "secret": "token signing key",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000649",
+      "family_id": "token-bucket-rate-limit",
+      "topic": "token-bucket-rate-limit",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "rate": 100,
+        "burst": 20,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000650",
+      "family_id": "psi-capacity-signal",
+      "topic": "psi-capacity-signal",
+      "variant_index": 10,
+      "difficulty": "expert",
+      "params": {
+        "cpu": 75,
+        "_frame": 1
+      }
+    }
+  ],
+  "sha256": "d750789e533aaadb3e86d0b7bce618fb3e01fe2cadca582114b2208a004cf0db"
+}

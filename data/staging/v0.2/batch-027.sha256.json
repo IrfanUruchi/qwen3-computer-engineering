@@ -1,0 +1,45 @@
+{
+  "batch": "027",
+  "purpose": "failure-analysis",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-failure-analysis-000491",
+    "ce-failure-analysis-000492",
+    "ce-failure-analysis-000493",
+    "ce-failure-analysis-000494",
+    "ce-failure-analysis-000495",
+    "ce-failure-analysis-000496",
+    "ce-failure-analysis-000497",
+    "ce-failure-analysis-000498",
+    "ce-failure-analysis-000499",
+    "ce-failure-analysis-000500"
+  ],
+  "generator_seed": 20261104,
+  "family_ids": [
+    "fail-tombstone-resurrection",
+    "fail-unaligned-access",
+    "fail-tcp-zero-window",
+    "fail-stack-overflow-embedded",
+    "fail-sigpipe-write",
+    "fail-inode-exhaustion",
+    "fail-cow-memory-spike",
+    "fail-cache-stampede",
+    "fail-cuda-fork-context",
+    "fail-zombie-accumulation"
+  ],
+  "concept_ids": [
+    "distributed-tombstone-resurrection",
+    "unaligned-access-architecture-fault",
+    "tcp-zero-window-stall",
+    "embedded-stack-overflow-corruption",
+    "sigpipe-socket-write-process-exit",
+    "filesystem-inode-exhaustion",
+    "copy-on-write-fork-memory-spike",
+    "cache-expiry-stampede",
+    "cuda-context-forked-process-failure",
+    "unreaped-child-zombie-accumulation"
+  ],
+  "all_used_family_count": 19,
+  "data_sha256": "5ae7094459ba1255e16a2815cea05523f93d74f342d0ba50064595adc4a17aa8"
+}

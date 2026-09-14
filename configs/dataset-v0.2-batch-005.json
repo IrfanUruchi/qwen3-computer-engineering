@@ -1,0 +1,90 @@
+{
+  "batch": "005",
+  "dataset_version": "0.2",
+  "stage": "v0.2-A-programmatic",
+  "split": "train",
+  "generator": "scripts/generate_v02_programmatic.py",
+  "seed": 20260914,
+  "records": [
+    {
+      "id": "ce-softwareengineering-programmatic-000341",
+      "domain": "software-engineering",
+      "subdomain": "rate-limiting",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-operatingsystems-programmatic-000342",
+      "domain": "operating-systems",
+      "subdomain": "copy-on-write",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-computerarchitecture-programmatic-000343",
+      "domain": "computer-architecture",
+      "subdomain": "branch-prediction",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-softwareengineering-programmatic-000344",
+      "domain": "software-engineering",
+      "subdomain": "connection-pools",
+      "task_type": "architecture-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-linuxinfrastructure-programmatic-000345",
+      "domain": "linux-infrastructure",
+      "subdomain": "resource-limits",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-secureengineering-programmatic-000346",
+      "domain": "secure-engineering",
+      "subdomain": "token-security",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-systemsprogramming-programmatic-000347",
+      "domain": "systems-programming",
+      "subdomain": "binary-parsing",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-operatingsystems-programmatic-000348",
+      "domain": "operating-systems",
+      "subdomain": "page-faults",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-computemodelinfrastructure-programmatic-000349",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "pipeline-parallelism",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-embeddedsystems-programmatic-000350",
+      "domain": "embedded-systems",
+      "subdomain": "uart",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    }
+  ]
+}

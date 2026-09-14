@@ -1,0 +1,14 @@
+{
+  "batch": "009",
+  "purpose": "design",
+  "records": 5,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "design-async-buffer-ownership",
+    "design-bulkhead",
+    "design-numa-first-touch",
+    "design-sandbox-broker",
+    "design-transactional-outbox"
+  ],
+  "data_sha256": "95e2071d2c7d7ef1db1fd6df258873c50cb58fc24a351077ec8031d0a861c37f"
+}

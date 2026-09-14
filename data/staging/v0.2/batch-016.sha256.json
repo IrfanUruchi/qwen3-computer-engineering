@@ -1,0 +1,12 @@
+{
+  "batch": "016",
+  "purpose": "troubleshooting",
+  "records": 3,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "trouble-arch-memory-bandwidth-wall",
+    "trouble-networking-backlog-overflow",
+    "trouble-os-dirty-writeback-stall"
+  ],
+  "data_sha256": "3e078e40cec8fa0a2c50a6aff77f687c7481b816d44021557ecce178528366a0"
+}

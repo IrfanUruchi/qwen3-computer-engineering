@@ -1,0 +1,18 @@
+{
+  "batch": "012",
+  "purpose": "failure-analysis",
+  "records": 4,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "fail-db-write-skew",
+    "fail-false-sharing",
+    "fail-hidden-host-sync",
+    "fail-inotify-overflow",
+    "fail-mmap-truncate",
+    "fail-pmtud-blackhole",
+    "fail-stale-lease-writer",
+    "fail-tlb-shootdown",
+    "fail-watchdog-reset-loop"
+  ],
+  "data_sha256": "babc6be21ace7105dca862eadae0bfdb4ed22651d203249c9c68608b3a82bb4a"
+}

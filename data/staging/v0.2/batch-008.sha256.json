@@ -1,0 +1,14 @@
+{
+  "batch": "008",
+  "purpose": "failure-analysis",
+  "records": 5,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "fail-inotify-overflow",
+    "fail-mmap-truncate",
+    "fail-pmtud-blackhole",
+    "fail-stale-lease-writer",
+    "fail-tlb-shootdown"
+  ],
+  "data_sha256": "d7dc0a73226aa0a93f3cc480b1accd9660e870e26cbf5d03cd23ca0e791d1927"
+}

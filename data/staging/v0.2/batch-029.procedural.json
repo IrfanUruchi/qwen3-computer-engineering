@@ -1,0 +1,619 @@
+{
+  "batch": "029",
+  "generator": "generate_dataset_v02.py",
+  "seed": 20260914,
+  "records": 50,
+  "record_ids": [
+    "ce-code-repair-000551",
+    "ce-code-repair-000552",
+    "ce-technical-decision-000553",
+    "ce-debugging-000554",
+    "ce-failure-analysis-000555",
+    "ce-technical-decision-000556",
+    "ce-configuration-000557",
+    "ce-technical-decision-000558",
+    "ce-performance-analysis-000559",
+    "ce-implementation-000560",
+    "ce-performance-analysis-000561",
+    "ce-debugging-000562",
+    "ce-troubleshooting-000563",
+    "ce-troubleshooting-000564",
+    "ce-failure-analysis-000565",
+    "ce-design-000566",
+    "ce-design-000567",
+    "ce-troubleshooting-000568",
+    "ce-design-000569",
+    "ce-failure-analysis-000570",
+    "ce-troubleshooting-000571",
+    "ce-implementation-000572",
+    "ce-troubleshooting-000573",
+    "ce-technical-decision-000574",
+    "ce-design-000575",
+    "ce-design-000576",
+    "ce-debugging-000577",
+    "ce-implementation-000578",
+    "ce-failure-analysis-000579",
+    "ce-debugging-000580",
+    "ce-technical-decision-000581",
+    "ce-performance-analysis-000582",
+    "ce-failure-analysis-000583",
+    "ce-technical-decision-000584",
+    "ce-technical-decision-000585",
+    "ce-design-000586",
+    "ce-code-repair-000587",
+    "ce-technical-decision-000588",
+    "ce-failure-analysis-000589",
+    "ce-debugging-000590",
+    "ce-technical-decision-000591",
+    "ce-failure-analysis-000592",
+    "ce-failure-analysis-000593",
+    "ce-design-000594",
+    "ce-technical-decision-000595",
+    "ce-performance-analysis-000596",
+    "ce-debugging-000597",
+    "ce-troubleshooting-000598",
+    "ce-debugging-000599",
+    "ce-technical-decision-000600"
+  ],
+  "lineage": [
+    {
+      "record_id": "ce-code-repair-000551",
+      "family_id": "epoll-oneshot-rearm",
+      "topic": "epoll-oneshot-rearm",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "component": "gateway",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000552",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "service": "search service",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000553",
+      "family_id": "mlock-pagefault-budget",
+      "topic": "mlock-pagefault-budget",
+      "variant_index": 4,
+      "difficulty": "expert",
+      "params": {
+        "mb": 256,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000554",
+      "family_id": "dma-ring-overrun",
+      "topic": "dma-ring-overrun",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "peripheral": "SPI",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000555",
+      "family_id": "h2-hol-tcp",
+      "topic": "http2-tcp-head-of-line",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "service": "CDN connection",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000556",
+      "family_id": "optimizer-state-sharding",
+      "topic": "optimizer-state-sharding",
+      "variant_index": 0,
+      "difficulty": "expert",
+      "params": {
+        "optimizer": "AdamW",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-configuration-000557",
+      "family_id": "systemd-startlimit",
+      "topic": "systemd-startlimit",
+      "variant_index": 3,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "worker",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000558",
+      "family_id": "numa-interleave-choice",
+      "topic": "numa-interleave-choice",
+      "variant_index": 3,
+      "difficulty": "advanced",
+      "params": {
+        "sockets": 4,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000559",
+      "family_id": "bulk-write-chunking",
+      "topic": "bulk-write-chunking",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "service": "search service",
+        "rows": 1000,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000560",
+      "family_id": "otmpfile-publish",
+      "topic": "otmpfile-publish",
+      "variant_index": 3,
+      "difficulty": "advanced",
+      "params": {
+        "service": "credential writer",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000561",
+      "family_id": "amdahl-speedup",
+      "topic": "amdahl-speedup",
+      "variant_index": 8,
+      "difficulty": "intermediate",
+      "params": {
+        "serial": 40,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000562",
+      "family_id": "overcommit-commit-charge",
+      "topic": "overcommit-commit-charge",
+      "variant_index": 0,
+      "difficulty": "expert",
+      "params": {
+        "component": "database",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000563",
+      "family_id": "i2c-clock-stretch",
+      "topic": "i2c-clock-stretch",
+      "variant_index": 4,
+      "difficulty": "intermediate",
+      "params": {
+        "sensor": "secure element",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000564",
+      "family_id": "tcp-autotune-window",
+      "topic": "tcp-autotune-window",
+      "variant_index": 3,
+      "difficulty": "advanced",
+      "params": {
+        "rtt": 50,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000565",
+      "family_id": "lease-clock-skew",
+      "topic": "lease-clock-skew",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "job",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000566",
+      "family_id": "signal-safe-crash-path",
+      "topic": "signal-safe-crash-path",
+      "variant_index": 7,
+      "difficulty": "expert",
+      "params": {
+        "component": "server",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000567",
+      "family_id": "circuit-breaker-half-open",
+      "topic": "circuit-breaker-half-open",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "clients": 100,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000568",
+      "family_id": "veth-mtu-tunnel",
+      "topic": "veth-mtu-tunnel",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "tunnel": "WireGuard",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-design-000569",
+      "family_id": "csrf-samesite",
+      "topic": "csrf-samesite",
+      "variant_index": 3,
+      "difficulty": "intermediate",
+      "params": {
+        "app": "banking UI",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000570",
+      "family_id": "store-buffer-ordering",
+      "topic": "store-buffer-ordering",
+      "variant_index": 7,
+      "difficulty": "expert",
+      "params": {
+        "component": "buffer metadata",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000571",
+      "family_id": "hugepage-fragmentation",
+      "topic": "hugepage-fragmentation",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "component": "ML runtime",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000572",
+      "family_id": "structured-concurrency-cancel",
+      "topic": "structured-concurrency-cancellation",
+      "variant_index": 9,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "search service",
+        "children": 8,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000573",
+      "family_id": "straggler-step",
+      "topic": "distributed-training-straggler",
+      "variant_index": 6,
+      "difficulty": "advanced",
+      "params": {
+        "ranks": 32,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000574",
+      "family_id": "syn-cookie-tradeoff",
+      "topic": "syn-cookie-tradeoff",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "service": "API edge",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-design-000575",
+      "family_id": "flash-wear-log",
+      "topic": "flash-wear-log",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "seconds": 30,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000576",
+      "family_id": "fencing-splitbrain",
+      "topic": "fencing-splitbrain",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "job",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000577",
+      "family_id": "simd-misalignment",
+      "topic": "simd-misalignment",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "component": "parser",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000578",
+      "family_id": "token-bucket-rate-limit",
+      "topic": "token-bucket-rate-limit",
+      "variant_index": 0,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "API gateway",
+        "rate": 100,
+        "burst": 20,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000579",
+      "family_id": "writer-starvation-rwlock",
+      "topic": "writer-starvation-rwlock",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "component": "routing table",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000580",
+      "family_id": "odirect-alignment",
+      "topic": "odirect-alignment",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "component": "log reader",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000581",
+      "family_id": "psi-capacity-signal",
+      "topic": "psi-capacity-signal",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "cpu": 80,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000582",
+      "family_id": "bulk-write-chunking",
+      "topic": "bulk-write-chunking",
+      "variant_index": 0,
+      "difficulty": "expert",
+      "params": {
+        "service": "API gateway",
+        "rows": 1000,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000583",
+      "family_id": "fcntl-lock-lifetime",
+      "topic": "fcntl-lock-process-lifetime",
+      "variant_index": 3,
+      "difficulty": "advanced",
+      "params": {
+        "component": "indexer",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000584",
+      "family_id": "rto-rpo-backup",
+      "topic": "rto-rpo-backup",
+      "variant_index": 0,
+      "difficulty": "intermediate",
+      "params": {
+        "rpo": 1,
+        "rto": 5,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000585",
+      "family_id": "secret-zeroization",
+      "topic": "secret-zeroization",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "secret": "private key",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000586",
+      "family_id": "kernel-fusion-memorybound",
+      "topic": "kernel-fusion-memorybound",
+      "variant_index": 0,
+      "difficulty": "expert",
+      "params": {
+        "ops": "bias+activation",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000587",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000588",
+      "family_id": "read-repair",
+      "topic": "read-repair",
+      "variant_index": 3,
+      "difficulty": "intermediate",
+      "params": {
+        "resource": "object metadata",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000589",
+      "family_id": "store-buffer-ordering",
+      "topic": "store-buffer-ordering",
+      "variant_index": 6,
+      "difficulty": "advanced",
+      "params": {
+        "component": "buffer metadata",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000590",
+      "family_id": "dma-ring-overrun",
+      "topic": "dma-ring-overrun",
+      "variant_index": 9,
+      "difficulty": "expert",
+      "params": {
+        "peripheral": "camera",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000591",
+      "family_id": "mlock-pagefault-budget",
+      "topic": "mlock-pagefault-budget",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "mb": 16,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000592",
+      "family_id": "tmpfs-memory-pressure",
+      "topic": "tmpfs-memory-pressure",
+      "variant_index": 4,
+      "difficulty": "intermediate",
+      "params": {
+        "component": "database temp area",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000593",
+      "family_id": "h2-hol-tcp",
+      "topic": "http2-tcp-head-of-line",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API client",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-design-000594",
+      "family_id": "signal-safe-crash-path",
+      "topic": "signal-safe-crash-path",
+      "variant_index": 6,
+      "difficulty": "expert",
+      "params": {
+        "component": "server",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000595",
+      "family_id": "numa-interleave-choice",
+      "topic": "numa-interleave-choice",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "sockets": 4,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000596",
+      "family_id": "bulk-write-chunking",
+      "topic": "bulk-write-chunking",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "rows": 10000,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000597",
+      "family_id": "overcommit-commit-charge",
+      "topic": "overcommit-commit-charge",
+      "variant_index": 5,
+      "difficulty": "expert",
+      "params": {
+        "component": "compiler",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000598",
+      "family_id": "veth-mtu-tunnel",
+      "topic": "veth-mtu-tunnel",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "tunnel": "VXLAN",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000599",
+      "family_id": "dns-ttl-staleness",
+      "topic": "dns-ttl-staleness",
+      "variant_index": 2,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "API",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000600",
+      "family_id": "optimizer-state-sharding",
+      "topic": "optimizer-state-sharding",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "optimizer": "momentum SGD",
+        "_frame": 1
+      }
+    }
+  ],
+  "sha256": "186b548f3e615182c6fd0161058a5ed34edd211fc1ad5eddf733267e42a8399c"
+}

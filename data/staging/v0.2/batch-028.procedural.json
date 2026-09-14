@@ -1,0 +1,622 @@
+{
+  "batch": "028",
+  "generator": "generate_dataset_v02.py",
+  "seed": 20260914,
+  "records": 50,
+  "record_ids": [
+    "ce-performance-analysis-000501",
+    "ce-performance-analysis-000502",
+    "ce-performance-analysis-000503",
+    "ce-performance-analysis-000504",
+    "ce-performance-analysis-000505",
+    "ce-performance-analysis-000506",
+    "ce-implementation-000507",
+    "ce-implementation-000508",
+    "ce-performance-analysis-000509",
+    "ce-performance-analysis-000510",
+    "ce-implementation-000511",
+    "ce-design-000512",
+    "ce-performance-analysis-000513",
+    "ce-performance-analysis-000514",
+    "ce-code-repair-000515",
+    "ce-code-repair-000516",
+    "ce-performance-analysis-000517",
+    "ce-implementation-000518",
+    "ce-performance-analysis-000519",
+    "ce-design-000520",
+    "ce-implementation-000521",
+    "ce-performance-analysis-000522",
+    "ce-code-repair-000523",
+    "ce-code-repair-000524",
+    "ce-technical-decision-000525",
+    "ce-implementation-000526",
+    "ce-technical-decision-000527",
+    "ce-technical-decision-000528",
+    "ce-performance-analysis-000529",
+    "ce-performance-analysis-000530",
+    "ce-technical-decision-000531",
+    "ce-implementation-000532",
+    "ce-performance-analysis-000533",
+    "ce-code-repair-000534",
+    "ce-performance-analysis-000535",
+    "ce-configuration-000536",
+    "ce-implementation-000537",
+    "ce-design-000538",
+    "ce-performance-analysis-000539",
+    "ce-performance-analysis-000540",
+    "ce-debugging-000541",
+    "ce-design-000542",
+    "ce-code-repair-000543",
+    "ce-failure-analysis-000544",
+    "ce-technical-decision-000545",
+    "ce-implementation-000546",
+    "ce-performance-analysis-000547",
+    "ce-failure-analysis-000548",
+    "ce-technical-decision-000549",
+    "ce-failure-analysis-000550"
+  ],
+  "lineage": [
+    {
+      "record_id": "ce-performance-analysis-000501",
+      "family_id": "consistent-hash-vnodes",
+      "topic": "consistent-hash-vnodes",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "nodes": 64,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000502",
+      "family_id": "write-allocate-streaming",
+      "topic": "write-allocate-streaming",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "component": "large result array",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000503",
+      "family_id": "splice-pipe-backpressure",
+      "topic": "splice-pipe-backpressure",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "component": "log shipper",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000504",
+      "family_id": "amdahl-speedup",
+      "topic": "amdahl-speedup",
+      "variant_index": 1,
+      "difficulty": "intermediate",
+      "params": {
+        "serial": 5,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000505",
+      "family_id": "io-scheduler-latency",
+      "topic": "io-scheduler-latency",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "device": "virtual block device",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000506",
+      "family_id": "ecn-congestion",
+      "topic": "ecn-congestion",
+      "variant_index": 8,
+      "difficulty": "expert",
+      "params": {
+        "path": "lab bottleneck",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000507",
+      "family_id": "debounce-state-machine",
+      "topic": "debounce-state-machine",
+      "variant_index": 8,
+      "difficulty": "intermediate",
+      "params": {
+        "ms": 50,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000508",
+      "family_id": "snapshot-install",
+      "topic": "snapshot-install",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "scheduler state",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000509",
+      "family_id": "bulk-write-chunking",
+      "topic": "bulk-write-chunking",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "service": "search service",
+        "rows": 1000,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000510",
+      "family_id": "hw-prefetch-stride",
+      "topic": "hardware-prefetch-stride",
+      "variant_index": 5,
+      "difficulty": "expert",
+      "params": {
+        "stride": 8,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000511",
+      "family_id": "otmpfile-publish",
+      "topic": "otmpfile-publish",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "service": "cache builder",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-design-000512",
+      "family_id": "csrf-samesite",
+      "topic": "csrf-samesite",
+      "variant_index": 8,
+      "difficulty": "intermediate",
+      "params": {
+        "app": "support portal",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000513",
+      "family_id": "cpu-affinity-migration",
+      "topic": "cpu-affinity-migration",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "component": "analytics task",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000514",
+      "family_id": "gradient-bucket-overlap",
+      "topic": "gradient-bucket-overlap",
+      "variant_index": 8,
+      "difficulty": "expert",
+      "params": {
+        "model": "multimodal model",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000515",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000516",
+      "family_id": "epoll-oneshot-rearm",
+      "topic": "epoll-oneshot-rearm",
+      "variant_index": 0,
+      "difficulty": "advanced",
+      "params": {
+        "component": "proxy",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000517",
+      "family_id": "tlb-reach-pagesize",
+      "topic": "tlb-reach-pagesize",
+      "variant_index": 6,
+      "difficulty": "expert",
+      "params": {
+        "mb": 4096,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000518",
+      "family_id": "token-bucket-rate-limit",
+      "topic": "token-bucket-rate-limit",
+      "variant_index": 7,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "API gateway",
+        "rate": 500,
+        "burst": 100,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000519",
+      "family_id": "ecn-congestion",
+      "topic": "ecn-congestion",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "path": "cloud VPC",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000520",
+      "family_id": "flash-wear-log",
+      "topic": "flash-wear-log",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "seconds": 60,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000521",
+      "family_id": "snapshot-install",
+      "topic": "snapshot-install",
+      "variant_index": 3,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "metadata store",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000522",
+      "family_id": "io-scheduler-latency",
+      "topic": "io-scheduler-latency",
+      "variant_index": 1,
+      "difficulty": "expert",
+      "params": {
+        "device": "NVMe SSD",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000523",
+      "family_id": "clock-source-timeout",
+      "topic": "clock-source-timeout",
+      "variant_index": 2,
+      "difficulty": "intermediate",
+      "params": {
+        "component": "lock acquisition",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000524",
+      "family_id": "sendfile-partial",
+      "topic": "sendfile-partial-transfer",
+      "variant_index": 6,
+      "difficulty": "advanced",
+      "params": {
+        "mb": 1024,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000525",
+      "family_id": "rto-rpo-backup",
+      "topic": "rto-rpo-backup",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "rpo": 5,
+        "rto": 5,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000526",
+      "family_id": "structured-concurrency-cancel",
+      "topic": "structured-concurrency-cancellation",
+      "variant_index": 7,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "billing service",
+        "children": 64,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000527",
+      "family_id": "secret-zeroization",
+      "topic": "secret-zeroization",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "secret": "session key",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000528",
+      "family_id": "psi-capacity-signal",
+      "topic": "psi-capacity-signal",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "cpu": 55,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000529",
+      "family_id": "tlb-reach-pagesize",
+      "topic": "tlb-reach-pagesize",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "mb": 4096,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000530",
+      "family_id": "consistent-hash-vnodes",
+      "topic": "consistent-hash-vnodes",
+      "variant_index": 5,
+      "difficulty": "expert",
+      "params": {
+        "nodes": 16,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000531",
+      "family_id": "syn-cookie-tradeoff",
+      "topic": "syn-cookie-tradeoff",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "service": "SSH bastion",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000532",
+      "family_id": "debounce-state-machine",
+      "topic": "debounce-state-machine",
+      "variant_index": 7,
+      "difficulty": "intermediate",
+      "params": {
+        "ms": 30,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000533",
+      "family_id": "gradient-bucket-overlap",
+      "topic": "gradient-bucket-overlap",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "model": "encoder-decoder",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000534",
+      "family_id": "clock-source-timeout",
+      "topic": "clock-source-timeout",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "component": "health check",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000535",
+      "family_id": "splice-pipe-backpressure",
+      "topic": "splice-pipe-backpressure",
+      "variant_index": 6,
+      "difficulty": "expert",
+      "params": {
+        "component": "media server",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-configuration-000536",
+      "family_id": "systemd-startlimit",
+      "topic": "systemd-startlimit",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "service": "agent",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-implementation-000537",
+      "family_id": "structured-concurrency-cancel",
+      "topic": "structured-concurrency-cancellation",
+      "variant_index": 1,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "API gateway",
+        "children": 8,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000538",
+      "family_id": "fencing-splitbrain",
+      "topic": "fencing-splitbrain",
+      "variant_index": 4,
+      "difficulty": "expert",
+      "params": {
+        "resource": "queue partition",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000539",
+      "family_id": "write-allocate-streaming",
+      "topic": "write-allocate-streaming",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "component": "simulation grid",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000540",
+      "family_id": "cpu-affinity-migration",
+      "topic": "cpu-affinity-migration",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "component": "analytics task",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000541",
+      "family_id": "dns-ttl-staleness",
+      "topic": "dns-ttl-staleness",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "service": "load balancer",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000542",
+      "family_id": "kernel-fusion-memorybound",
+      "topic": "kernel-fusion-memorybound",
+      "variant_index": 5,
+      "difficulty": "expert",
+      "params": {
+        "ops": "optimizer update",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000543",
+      "family_id": "sendfile-partial",
+      "topic": "sendfile-partial-transfer",
+      "variant_index": 5,
+      "difficulty": "intermediate",
+      "params": {
+        "mb": 256,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000544",
+      "family_id": "adc-aliasing",
+      "topic": "adc-aliasing",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "fs": 16,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000545",
+      "family_id": "energy-performance",
+      "topic": "energy-performance",
+      "variant_index": 3,
+      "difficulty": "advanced",
+      "params": {
+        "wa": 120,
+        "ta": 20,
+        "wb": 160,
+        "tb": 35,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000546",
+      "family_id": "token-bucket-rate-limit",
+      "topic": "token-bucket-rate-limit",
+      "variant_index": 9,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "billing service",
+        "rate": 100,
+        "burst": 20,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000547",
+      "family_id": "hw-prefetch-stride",
+      "topic": "hardware-prefetch-stride",
+      "variant_index": 0,
+      "difficulty": "expert",
+      "params": {
+        "stride": 2,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000548",
+      "family_id": "tmpfs-memory-pressure",
+      "topic": "tmpfs-memory-pressure",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "component": "cache",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000549",
+      "family_id": "read-repair",
+      "topic": "read-repair",
+      "variant_index": 0,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "user profile",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000550",
+      "family_id": "nonce-reuse-aead",
+      "topic": "aead-nonce-reuse",
+      "variant_index": 5,
+      "difficulty": "expert",
+      "params": {
+        "mode": "GCM-style AEAD",
+        "_frame": 1
+      }
+    }
+  ],
+  "sha256": "d5cc2420a4f80e4ebea836bd53d899a8d28d25991367adf16f78f352adf612e8"
+}

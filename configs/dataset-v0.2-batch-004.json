@@ -1,0 +1,88 @@
+{
+  "batch": "004",
+  "dataset_version": "0.2",
+  "stage": "v0.2-A",
+  "split": "train",
+  "records": [
+    {
+      "id": "ce-software-db-write-skew-000331",
+      "domain": "software-engineering",
+      "subdomain": "database-concurrency",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-systems-cloexec-race-000332",
+      "domain": "systems-programming",
+      "subdomain": "file-descriptor-lifecycle",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-systems-mmap-truncate-sigbus-000333",
+      "domain": "systems-programming",
+      "subdomain": "memory-mapped-files",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-os-condition-variable-predicate-000334",
+      "domain": "operating-systems",
+      "subdomain": "thread-synchronization",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-architecture-huge-pages-tlb-000335",
+      "domain": "computer-architecture",
+      "subdomain": "memory-translation",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-systemd-socket-activation-000336",
+      "domain": "linux-infrastructure",
+      "subdomain": "service-supervision",
+      "task_type": "architecture-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-embedded-spsc-ring-ordering-000337",
+      "domain": "embedded-systems",
+      "subdomain": "lock-free-buffers",
+      "task_type": "code-repair",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-networking-time-wait-000338",
+      "domain": "networking",
+      "subdomain": "tcp-connection-lifecycle",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-distributed-clock-skew-lease-000339",
+      "domain": "distributed-systems",
+      "subdomain": "leases-and-time",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-reasoning-queue-utilization-000340",
+      "domain": "engineering-reasoning",
+      "subdomain": "queueing-performance",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "013",
+  "purpose": "design",
+  "records": 4,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "design-async-buffer-ownership",
+    "design-bulkhead",
+    "design-numa-first-touch",
+    "design-priority-ceiling",
+    "design-quic-migration",
+    "design-safe-firmware-ab",
+    "design-sandbox-broker",
+    "design-systemd-socket-activation",
+    "design-transactional-outbox"
+  ],
+  "data_sha256": "bcdef2066ccbd66d40262e9d74d3a82846eabf039fee243266a3e90b45b82828"
+}

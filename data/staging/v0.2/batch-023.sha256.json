@@ -1,0 +1,45 @@
+{
+  "batch": "023",
+  "purpose": "troubleshooting",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-troubleshooting-000451",
+    "ce-troubleshooting-000452",
+    "ce-troubleshooting-000453",
+    "ce-troubleshooting-000454",
+    "ce-troubleshooting-000455",
+    "ce-troubleshooting-000456",
+    "ce-troubleshooting-000457",
+    "ce-troubleshooting-000458",
+    "ce-troubleshooting-000459",
+    "ce-troubleshooting-000460"
+  ],
+  "generator_seed": 20261064,
+  "family_ids": [
+    "trouble-replication-lag-compaction",
+    "trouble-littles-law-queue",
+    "trouble-cache-eviction-storm",
+    "trouble-full-pipe-deadlock",
+    "trouble-thermal-throttle",
+    "trouble-uart-framing",
+    "trouble-gpu-input-starvation",
+    "trouble-gc-pause",
+    "trouble-softirq-saturation",
+    "trouble-noisy-neighbor"
+  ],
+  "concept_ids": [
+    "replication-lag-storage-compaction",
+    "queue-growth-littles-law-capacity",
+    "cache-eviction-working-set-thrash",
+    "pipe-full-mutual-wait",
+    "cpu-thermal-throttling-performance",
+    "uart-baud-clock-framing-errors",
+    "gpu-dataloader-input-starvation",
+    "managed-runtime-gc-pause",
+    "network-softirq-cpu-saturation",
+    "shared-host-noisy-neighbor"
+  ],
+  "all_used_family_count": 13,
+  "data_sha256": "80eab6ec1bc726991549cafa18a0b68c5128fe0fc84b53c63116937adb70835e"
+}

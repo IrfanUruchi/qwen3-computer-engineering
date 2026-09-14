@@ -1,0 +1,45 @@
+{
+  "batch": "022",
+  "purpose": "debugging",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-debugging-000441",
+    "ce-debugging-000442",
+    "ce-debugging-000443",
+    "ce-debugging-000444",
+    "ce-debugging-000445",
+    "ce-debugging-000446",
+    "ce-debugging-000447",
+    "ce-debugging-000448",
+    "ce-debugging-000449",
+    "ce-debugging-000450"
+  ],
+  "generator_seed": 20261054,
+  "family_ids": [
+    "dbg-db-pool-leak",
+    "dbg-emfile-accept-path",
+    "dbg-direct-reclaim",
+    "dbg-arm-publication-order",
+    "dbg-systemd-environment",
+    "dbg-brownout-reset",
+    "dbg-ephemeral-port-exhaustion",
+    "dbg-cuda-default-stream",
+    "dbg-mtls-san",
+    "dbg-lock-convoy"
+  ],
+  "concept_ids": [
+    "db-connection-pool-leak",
+    "emfile-server-accept-recovery",
+    "direct-reclaim-latency-stalls",
+    "weak-memory-publication-bug",
+    "systemd-shell-environment-mismatch",
+    "brownout-vs-watchdog-reset-diagnosis",
+    "client-ephemeral-port-exhaustion",
+    "cuda-default-stream-serialization",
+    "mtls-san-identity-mismatch",
+    "mutex-lock-convoy"
+  ],
+  "all_used_family_count": 20,
+  "data_sha256": "8bac5aaa98f1b457d29e588c0de066a163b2afc77aa7f1218f50a146fa706ed3"
+}

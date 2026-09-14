@@ -1,0 +1,606 @@
+{
+  "batch": "032",
+  "generator": "generate_dataset_v02.py",
+  "seed": 20260914,
+  "records": 48,
+  "record_ids": [
+    "ce-code-repair-000701",
+    "ce-debugging-000702",
+    "ce-troubleshooting-000703",
+    "ce-implementation-000704",
+    "ce-technical-decision-000705",
+    "ce-failure-analysis-000706",
+    "ce-failure-analysis-000707",
+    "ce-design-000708",
+    "ce-failure-analysis-000709",
+    "ce-failure-analysis-000710",
+    "ce-technical-decision-000711",
+    "ce-performance-analysis-000712",
+    "ce-troubleshooting-000713",
+    "ce-troubleshooting-000714",
+    "ce-failure-analysis-000715",
+    "ce-implementation-000716",
+    "ce-failure-analysis-000717",
+    "ce-technical-decision-000718",
+    "ce-failure-analysis-000719",
+    "ce-code-repair-000720",
+    "ce-debugging-000721",
+    "ce-troubleshooting-000722",
+    "ce-failure-analysis-000723",
+    "ce-performance-analysis-000724",
+    "ce-technical-decision-000725",
+    "ce-design-000726",
+    "ce-debugging-000727",
+    "ce-design-000728",
+    "ce-technical-decision-000729",
+    "ce-debugging-000730",
+    "ce-technical-decision-000731",
+    "ce-design-000732",
+    "ce-debugging-000733",
+    "ce-technical-decision-000734",
+    "ce-code-repair-000735",
+    "ce-debugging-000736",
+    "ce-technical-decision-000737",
+    "ce-debugging-000738",
+    "ce-design-000739",
+    "ce-debugging-000740",
+    "ce-design-000741",
+    "ce-technical-decision-000742",
+    "ce-debugging-000743",
+    "ce-debugging-000744",
+    "ce-debugging-000745",
+    "ce-debugging-000746",
+    "ce-debugging-000747",
+    "ce-debugging-000748"
+  ],
+  "lineage": [
+    {
+      "record_id": "ce-code-repair-000701",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 9,
+      "difficulty": "expert",
+      "params": {
+        "service": "media service",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000702",
+      "family_id": "odirect-alignment",
+      "topic": "odirect-alignment",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "component": "log reader",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000703",
+      "family_id": "hugepage-fragmentation",
+      "topic": "hugepage-fragmentation",
+      "variant_index": 11,
+      "difficulty": "advanced",
+      "params": {
+        "component": "scientific job",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-implementation-000704",
+      "family_id": "structured-concurrency-cancel",
+      "topic": "structured-concurrency-cancellation",
+      "variant_index": 3,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "API gateway",
+        "children": 64,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000705",
+      "family_id": "rto-rpo-backup",
+      "topic": "rto-rpo-backup",
+      "variant_index": 8,
+      "difficulty": "intermediate",
+      "params": {
+        "rpo": 5,
+        "rto": 5,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000706",
+      "family_id": "h2-hol-tcp",
+      "topic": "http2-tcp-head-of-line",
+      "variant_index": 2,
+      "difficulty": "expert",
+      "params": {
+        "service": "browser session",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000707",
+      "family_id": "lease-clock-skew",
+      "topic": "lease-clock-skew",
+      "variant_index": 11,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "scheduler slot",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-design-000708",
+      "family_id": "flash-wear-log",
+      "topic": "flash-wear-log",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "seconds": 1,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000709",
+      "family_id": "store-buffer-ordering",
+      "topic": "store-buffer-ordering",
+      "variant_index": 1,
+      "difficulty": "expert",
+      "params": {
+        "component": "ring slot",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000710",
+      "family_id": "fcntl-lock-lifetime",
+      "topic": "fcntl-lock-process-lifetime",
+      "variant_index": 10,
+      "difficulty": "advanced",
+      "params": {
+        "component": "package manager",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000711",
+      "family_id": "secret-zeroization",
+      "topic": "secret-zeroization",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "secret": "session key",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000712",
+      "family_id": "bulk-write-chunking",
+      "topic": "bulk-write-chunking",
+      "variant_index": 6,
+      "difficulty": "expert",
+      "params": {
+        "service": "billing service",
+        "rows": 1000,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000713",
+      "family_id": "straggler-step",
+      "topic": "distributed-training-straggler",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "ranks": 4,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000714",
+      "family_id": "tcp-autotune-window",
+      "topic": "tcp-autotune-window",
+      "variant_index": 6,
+      "difficulty": "advanced",
+      "params": {
+        "rtt": 100,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000715",
+      "family_id": "writer-starvation-rwlock",
+      "topic": "writer-starvation-rwlock",
+      "variant_index": 4,
+      "difficulty": "expert",
+      "params": {
+        "component": "metadata map",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-implementation-000716",
+      "family_id": "structured-concurrency-cancel",
+      "topic": "structured-concurrency-cancellation",
+      "variant_index": 8,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "billing service",
+        "children": 8,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000717",
+      "family_id": "lease-clock-skew",
+      "topic": "lease-clock-skew",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "resource": "lock",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000718",
+      "family_id": "energy-performance",
+      "topic": "energy-performance",
+      "variant_index": 0,
+      "difficulty": "intermediate",
+      "params": {
+        "wa": 120,
+        "ta": 20,
+        "wb": 100,
+        "tb": 35,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000719",
+      "family_id": "fcntl-lock-lifetime",
+      "topic": "fcntl-lock-process-lifetime",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "component": "package manager",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000720",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-debugging-000721",
+      "family_id": "odirect-alignment",
+      "topic": "odirect-alignment",
+      "variant_index": 7,
+      "difficulty": "expert",
+      "params": {
+        "component": "log reader",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-troubleshooting-000722",
+      "family_id": "tcp-autotune-window",
+      "topic": "tcp-autotune-window",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "rtt": 20,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-failure-analysis-000723",
+      "family_id": "nonce-reuse-aead",
+      "topic": "aead-nonce-reuse",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "mode": "GCM-style AEAD",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-performance-analysis-000724",
+      "family_id": "bulk-write-chunking",
+      "topic": "bulk-write-chunking",
+      "variant_index": 10,
+      "difficulty": "expert",
+      "params": {
+        "service": "billing service",
+        "rows": 10000,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000725",
+      "family_id": "cache-admission-hotset",
+      "topic": "cache-admission-hotset",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "size": 4,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-design-000726",
+      "family_id": "circuit-breaker-half-open",
+      "topic": "circuit-breaker-half-open",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "clients": 1000,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-debugging-000727",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 9,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "media service",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-design-000728",
+      "family_id": "circuit-breaker-half-open",
+      "topic": "circuit-breaker-half-open",
+      "variant_index": 8,
+      "difficulty": "expert",
+      "params": {
+        "service": "billing service",
+        "clients": 100,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000729",
+      "family_id": "cache-admission-hotset",
+      "topic": "cache-admission-hotset",
+      "variant_index": 9,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "size": 16,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000730",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 3,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "billing service",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000731",
+      "family_id": "cache-admission-hotset",
+      "topic": "cache-admission-hotset",
+      "variant_index": 7,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "size": 4,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000732",
+      "family_id": "circuit-breaker-half-open",
+      "topic": "circuit-breaker-half-open",
+      "variant_index": 0,
+      "difficulty": "expert",
+      "params": {
+        "service": "API gateway",
+        "clients": 100,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000733",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 8,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "search service",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000734",
+      "family_id": "cache-admission-hotset",
+      "topic": "cache-admission-hotset",
+      "variant_index": 8,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "size": 4,
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-code-repair-000735",
+      "family_id": "memoization-concurrent-fill",
+      "topic": "memoization-concurrent-fill",
+      "variant_index": 10,
+      "difficulty": "advanced",
+      "params": {
+        "service": "media service",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000736",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 7,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "search service",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000737",
+      "family_id": "cache-admission-hotset",
+      "topic": "cache-admission-hotset",
+      "variant_index": 3,
+      "difficulty": "expert",
+      "params": {
+        "service": "API gateway",
+        "size": 16,
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000738",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 1,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "API gateway",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000739",
+      "family_id": "circuit-breaker-half-open",
+      "topic": "circuit-breaker-half-open",
+      "variant_index": 10,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "clients": 1000,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000740",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 4,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-design-000741",
+      "family_id": "circuit-breaker-half-open",
+      "topic": "circuit-breaker-half-open",
+      "variant_index": 1,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "clients": 100,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-technical-decision-000742",
+      "family_id": "cache-admission-hotset",
+      "topic": "cache-admission-hotset",
+      "variant_index": 1,
+      "difficulty": "expert",
+      "params": {
+        "service": "API gateway",
+        "size": 4,
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000743",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 10,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "media service",
+        "_frame": 1
+      }
+    },
+    {
+      "record_id": "ce-debugging-000744",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 11,
+      "difficulty": "advanced",
+      "params": {
+        "service": "media service",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-debugging-000745",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 0,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000746",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 6,
+      "difficulty": "intermediate",
+      "params": {
+        "service": "search service",
+        "_frame": 0
+      }
+    },
+    {
+      "record_id": "ce-debugging-000747",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 2,
+      "difficulty": "advanced",
+      "params": {
+        "service": "API gateway",
+        "_frame": 2
+      }
+    },
+    {
+      "record_id": "ce-debugging-000748",
+      "family_id": "listener-lifecycle-leak",
+      "topic": "listener-lifecycle-leak",
+      "variant_index": 5,
+      "difficulty": "advanced",
+      "params": {
+        "service": "billing service",
+        "_frame": 2
+      }
+    }
+  ],
+  "sha256": "9cb50cefcf25ba4c51b70dbfc76a706631c45efa75f33a7071270b00a98d4386"
+}

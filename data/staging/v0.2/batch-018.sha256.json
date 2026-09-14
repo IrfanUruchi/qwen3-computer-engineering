@@ -1,0 +1,45 @@
+{
+  "batch": "018",
+  "purpose": "technical-decision",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-technical-decision-000401",
+    "ce-technical-decision-000402",
+    "ce-technical-decision-000403",
+    "ce-technical-decision-000404",
+    "ce-technical-decision-000405",
+    "ce-technical-decision-000406",
+    "ce-technical-decision-000407",
+    "ce-technical-decision-000408",
+    "ce-technical-decision-000409",
+    "ce-technical-decision-000410"
+  ],
+  "generator_seed": 20261014,
+  "family_ids": [
+    "decision-zone-redundancy",
+    "decision-activation-checkpointing",
+    "decision-mmap-vs-pread",
+    "decision-average-vs-tail",
+    "decision-capabilities-vs-ambient",
+    "decision-sync-vs-async-api",
+    "decision-aos-vs-soa",
+    "decision-rcu-vs-rwlock",
+    "decision-poll-vs-interrupt",
+    "decision-mtls-vs-service-token"
+  ],
+  "concept_ids": [
+    "zone-redundancy-capacity-planning",
+    "activation-checkpointing-vs-throughput",
+    "mmap-vs-pread-random-read",
+    "average-vs-tail-latency-slo",
+    "capability-vs-ambient-authority",
+    "sync-vs-async-backpressure-api",
+    "aos-vs-soa-simd-layout",
+    "rcu-vs-rwlock-read-mostly",
+    "polling-vs-interrupt-high-rate-device",
+    "mtls-vs-signed-service-token"
+  ],
+  "all_used_family_count": 13,
+  "data_sha256": "2b5acbca2a3a222865d7a4b90187017eb3876a3856b494d1aa2ec9c85ee40e90"
+}

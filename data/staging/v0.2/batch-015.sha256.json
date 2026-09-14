@@ -1,0 +1,12 @@
+{
+  "batch": "015",
+  "purpose": "testing",
+  "records": 3,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "test-arch-false-sharing-ab",
+    "test-linux-service-restart-contract",
+    "test-software-idempotency-crash-window"
+  ],
+  "data_sha256": "5e3c67c51f8f1028599cc68fd2c873e5ae120a291169ef23ad64e039515fccdd"
+}

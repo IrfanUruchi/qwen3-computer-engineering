@@ -1,0 +1,43 @@
+from .base import F
+
+FAMILIES = [
+    F(
+        id='nonce-reuse-aead',
+        topic='aead-nonce-reuse',
+        domain='secure-engineering',
+        subdomain='cryptography',
+        task_type='failure-analysis',
+        question='Two messages are encrypted under the same AEAD key and accidentally reuse the same nonce. Explain why this can be catastrophic even though authentication tags are present.',
+        answer='Many AEAD constructions require nonce uniqueness per key. Reuse can reveal relationships between plaintexts and, for some modes, enable authentication forgeries by exposing algebraic structure. The exact failure depends on the algorithm, but the API contract must treat nonce uniqueness as a hard invariant unless the construction explicitly provides misuse resistance. Generate nonces with a scheme that guarantees uniqueness for the key lifecycle, rotate keys safely, and do not rely on random chance when the message volume makes collisions meaningful.',
+        verification='Must state nonce uniqueness as an AEAD requirement, explain confidentiality/authentication risk, and require a deterministic or otherwise robust uniqueness strategy.',
+        params={'mode': ['AES-GCM', 'ChaCha20-Poly1305', 'GCM-style AEAD', 'stream-cipher AEAD', 'hardware AEAD']},
+        tags=['aead', 'nonce', 'cryptography'],
+        levels=('advanced', 'expert'),
+    ),
+    F(
+        id='csrf-samesite',
+        topic='csrf-samesite',
+        domain='secure-engineering',
+        subdomain='web-security',
+        task_type='design',
+        question='A browser application authenticates with cookies. Design CSRF protection without assuming `SameSite` alone is sufficient for every deployment.',
+        answer='Use the appropriate `SameSite` cookie setting as one layer, but protect state-changing requests with an anti-CSRF token or a same-origin/custom-header pattern appropriate to the architecture, and validate Origin/Referer where reliable as defense in depth. Avoid state changes via GET. Account for cross-site login/payment flows that may require less restrictive cookie behavior. CSRF protection addresses ambient cookie authority; it does not replace XSS prevention, which can often bypass in-page token defenses.',
+        verification='Must include an explicit anti-CSRF mechanism for state changes, treat SameSite as layered protection, avoid unsafe GET semantics, and distinguish CSRF from XSS.',
+        params={'app': ['admin console', 'banking UI', 'storefront', 'internal dashboard', 'support portal']},
+        tags=['csrf', 'samesite', 'web-security'],
+        levels=('intermediate', 'advanced'),
+    ),
+    F(
+        id='secret-zeroization',
+        topic='secret-zeroization',
+        domain='secure-engineering',
+        subdomain='memory-safety',
+        task_type='technical-decision',
+        question='A process temporarily stores a cryptographic secret in memory. Decide when explicit zeroization is useful and why a normal `memset` may not be sufficient.',
+        answer='Zeroization can reduce the lifetime of secrets in process memory and crash/core artifacts after the value is no longer needed. Compilers may remove an ordinary `memset` that has no observable effect, so use a platform/library primitive intended not to be optimized away. Minimize copies and lifetime in the first place. Zeroization is defense in depth: it cannot erase copies made elsewhere, registers, swap, prior dumps, or an attacker that already read the secret.',
+        verification='Must explain dead-store optimization risk, require a dedicated zeroization primitive, minimize copies/lifetime, and state the limits of zeroization.',
+        params={'secret': ['private key', 'session key', 'password-derived key', 'token signing key', 'recovery secret']},
+        tags=['zeroization', 'secret', 'memory'],
+        levels=('advanced', 'expert'),
+    ),
+]

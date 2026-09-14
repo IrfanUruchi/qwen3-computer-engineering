@@ -1,0 +1,19 @@
+{
+  "dataset_version": "0.2",
+  "seed": 20260914,
+  "target_total": 100,
+  "batch_size": 10,
+  "domain_targets": {
+    "software-engineering": 13,
+    "systems-programming": 12,
+    "operating-systems": 12,
+    "computer-architecture": 11,
+    "linux-infrastructure": 10,
+    "embedded-systems": 9,
+    "networking": 9,
+    "distributed-systems": 8,
+    "compute-model-infrastructure": 7,
+    "secure-engineering": 5,
+    "engineering-reasoning": 4
+  }
+}

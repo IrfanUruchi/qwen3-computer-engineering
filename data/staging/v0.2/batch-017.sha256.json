@@ -1,0 +1,12 @@
+{
+  "batch": "017",
+  "purpose": "technical-decision",
+  "records": 3,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "decision-distributed-rw-quorum",
+    "decision-reasoning-latency-headroom",
+    "decision-reasoning-scaleup-vs-scaleout"
+  ],
+  "data_sha256": "5ef0423540b2b0897a3922c0329e20f5a3606b6acbe66bb64d61076b7622276d"
+}

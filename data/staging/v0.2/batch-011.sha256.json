@@ -1,0 +1,18 @@
+{
+  "batch": "011",
+  "purpose": "code-repair",
+  "records": 4,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "repair-atomic-publication",
+    "repair-cas-db-version",
+    "repair-condvar-loop",
+    "repair-gpu-accum-step",
+    "repair-idempotency-key",
+    "repair-partial-send",
+    "repair-size-add-overflow",
+    "repair-spsc-ordering",
+    "repair-systemd-health-watchdog"
+  ],
+  "data_sha256": "d6de8afce9e007ca94f700c82e51b167af290cff0c11aaeb1296a7d7a0dc2a0a"
+}

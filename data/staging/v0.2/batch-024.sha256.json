@@ -1,0 +1,45 @@
+{
+  "batch": "024",
+  "purpose": "code-repair",
+  "generator_module": "__main__",
+  "records": 10,
+  "record_ids": [
+    "ce-code-repair-000461",
+    "ce-code-repair-000462",
+    "ce-code-repair-000463",
+    "ce-code-repair-000464",
+    "ce-code-repair-000465",
+    "ce-code-repair-000466",
+    "ce-code-repair-000467",
+    "ce-code-repair-000468",
+    "ce-code-repair-000469",
+    "ce-code-repair-000470"
+  ],
+  "generator_seed": 20261074,
+  "family_ids": [
+    "repair-systemd-execstart-redirection",
+    "repair-udp-truncation",
+    "repair-recvmsg-control-truncation",
+    "repair-refcount-release-order",
+    "repair-secret-compare",
+    "repair-singleflight-cache-fill",
+    "repair-isr-ring-index",
+    "repair-ssize-size-conversion",
+    "repair-robust-mutex-owner-dead",
+    "repair-transaction-retry-scope"
+  ],
+  "concept_ids": [
+    "systemd-execstart-no-shell-redirection",
+    "udp-message-truncation-detection",
+    "recvmsg-control-truncation-check",
+    "atomic-refcount-final-release",
+    "constant-time-secret-comparison",
+    "singleflight-cache-fill",
+    "isr-main-ring-buffer-index-synchronization",
+    "ssize-to-size-checked-conversion",
+    "robust-mutex-owner-dead-recovery",
+    "transaction-retry-whole-unit"
+  ],
+  "all_used_family_count": 19,
+  "data_sha256": "6da2b7e20c09345d08026f59f7c5d69bf044ef41d8fb133359808bd302cea690"
+}

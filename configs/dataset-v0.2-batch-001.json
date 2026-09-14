@@ -1,0 +1,88 @@
+{
+  "batch": "001",
+  "dataset_version": "0.2",
+  "stage": "v0.2-A",
+  "split": "train",
+  "records": [
+    {
+      "id": "ce-systems-epollet-drain-000301",
+      "domain": "systems-programming",
+      "subdomain": "event-driven-io",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-os-priority-inversion-000302",
+      "domain": "operating-systems",
+      "subdomain": "real-time-scheduling",
+      "task_type": "failure-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-architecture-release-acquire-000303",
+      "domain": "computer-architecture",
+      "subdomain": "memory-ordering",
+      "task_type": "code-repair",
+      "difficulty": "expert",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-linux-cgroup-memory-high-000304",
+      "domain": "linux-infrastructure",
+      "subdomain": "cgroup-v2",
+      "task_type": "troubleshooting",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-networking-tcp-half-close-000305",
+      "domain": "networking",
+      "subdomain": "tcp-connection-lifecycle",
+      "task_type": "architecture-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-embedded-dma-cache-coherency-000306",
+      "domain": "embedded-systems",
+      "subdomain": "dma-cache-coherency",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-distributed-transactional-outbox-000307",
+      "domain": "distributed-systems",
+      "subdomain": "transactional-messaging",
+      "task_type": "architecture-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-software-optimistic-concurrency-000308",
+      "domain": "software-engineering",
+      "subdomain": "concurrency-control",
+      "task_type": "code-repair",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-compute-transfer-overlap-000309",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "gpu-data-transfer",
+      "task_type": "performance-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-security-toctou-path-000310",
+      "domain": "secure-engineering",
+      "subdomain": "filesystem-races",
+      "task_type": "code-repair",
+      "difficulty": "expert",
+      "verification": "rubric"
+    }
+  ]
+}

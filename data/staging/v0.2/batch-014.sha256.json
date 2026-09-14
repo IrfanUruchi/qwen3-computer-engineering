@@ -1,0 +1,13 @@
+{
+  "batch": "014",
+  "purpose": "implementation",
+  "records": 4,
+  "generator_seed": 20260914,
+  "family_ids": [
+    "impl-networking-reconnect-backoff",
+    "impl-os-generation-counter-wakeup",
+    "impl-software-bounded-worker-queue",
+    "impl-systems-length-prefixed-parser"
+  ],
+  "data_sha256": "5d3bfbffe9c06a2c5376cc36dea697c24cb70dfa4e6f31baf21a04b1758ec851"
+}

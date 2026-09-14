@@ -1,0 +1,88 @@
+{
+  "batch": "003",
+  "dataset_version": "0.2",
+  "stage": "v0.2-A",
+  "split": "train",
+  "records": [
+    {
+      "id": "ce-systems-nonblocking-connect-000321",
+      "domain": "systems-programming",
+      "subdomain": "nonblocking-sockets",
+      "task_type": "debugging",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-os-fork-multithreaded-child-000322",
+      "domain": "operating-systems",
+      "subdomain": "process-creation",
+      "task_type": "failure-analysis",
+      "difficulty": "expert",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-architecture-branch-predictor-aliasing-000323",
+      "domain": "computer-architecture",
+      "subdomain": "branch-prediction",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-linux-systemd-watchdog-000324",
+      "domain": "linux-infrastructure",
+      "subdomain": "service-supervision",
+      "task_type": "configuration",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-embedded-watchdog-reset-loop-000325",
+      "domain": "embedded-systems",
+      "subdomain": "fault-recovery",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-networking-quic-connection-id-000326",
+      "domain": "networking",
+      "subdomain": "quic",
+      "task_type": "architecture-analysis",
+      "difficulty": "advanced",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-distributed-quorum-intersection-000327",
+      "domain": "distributed-systems",
+      "subdomain": "replication",
+      "task_type": "technical-decision",
+      "difficulty": "expert",
+      "verification": "reference-answer"
+    },
+    {
+      "id": "ce-software-idempotency-key-000328",
+      "domain": "software-engineering",
+      "subdomain": "api-reliability",
+      "task_type": "design",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-compute-gradient-accumulation-000329",
+      "domain": "compute-model-infrastructure",
+      "subdomain": "training-memory",
+      "task_type": "performance-analysis",
+      "difficulty": "advanced",
+      "verification": "rubric"
+    },
+    {
+      "id": "ce-security-seccomp-pathname-limit-000330",
+      "domain": "secure-engineering",
+      "subdomain": "sandboxing",
+      "task_type": "technical-decision",
+      "difficulty": "expert",
+      "verification": "rubric"
+    }
+  ]
+}

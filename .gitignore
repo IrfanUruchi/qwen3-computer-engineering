@@ -73,3 +73,14 @@ research/runs/*/artifacts/
 .venv-eval/
 __pycache__/
 *.py[cod]
+
+# Windows / migration junk
+*:Zone.Identifier
+
+# Local timestamp backups
+*.bak
+
+# Dataset generator resumable scratch state
+data/staging/**/.procedural-generator-state.json
+data/staging/**/.purpose-*-state.json
+data/staging/**/.used-concepts.json
